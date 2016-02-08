@@ -1,0 +1,52 @@
+Paper : A Survey on QoS Ranking in Cloud Computing
+
+Abstract : QoS is an important factor in Cloud Computing. Cloud services are selected based on QoS attributes.
+           A survery on QoS Ranking and Selection, their limitations and inferences are given.
+
+Intro :
+        Types of Services :
+        Software as a Service (gmail)
+        Platform as a Service(users application on provided platform)
+        Infrastructure as a Service(users own OS)
+
+        QoS is defined by a set of properties including response times, reputation, failure probability, etc.
+        Different users can experience different QoS values of the same cloud service, since the internet is unreliable.
+QoS Ranking Techinques :
+        1.Collaborative filtering : Making predictions for a particular user based on opinions of many users.
+                                    Generates high quality recommendations.
+        2.Model based recommendations : Finding similarities between items from a set of items.
+                                        The quality of the solution is not guarenteed to be good.(limitations)
+                                        Computer based recommendations are made on item-to-item.
+                                        Provides better recommendations when compared to collaborative filtering.
+                                        Faster than other rating based recommendation algorithms.
+        3.User collaborative mechanism (for web services):
+                                          Predicts QoS values by considering the past user experience.
+                                          Need to predict more real world web services and the set of QoS attributes used to predict has to be enhanced.(limitations)
+                                          Item based approach yielded better results than user based approach.
+        4.An approximate markov chain model :
+                                          It helps in obtaining the number of tasks in the system and also gives the complete probability distribution of response time.
+                                          Burst request arrivals are not supported(limitations).
+                                          Performance evaluation is based on response time and the accuracy of the proposed method was high.
+        5.A neighbourhood based collaaborative filtering :
+                                          Used for predicting the unknown values in QoS based selection.
+        6.The Combinational model and graph model :
+                                          This model maximizes an utility function specific to an application.
+                                          Performace evaluation is based on four QoS values : response time, cost, availability, and reliability.
+                                          Time complexity reduces when hueristics are used.
+        7.AHP based ranking mechanism :
+                                          Cloud services are ranked and measures the quality.
+                                          Non-quantifiable QoS attributes are not used and this mechanism is not compatible for various QoS attributes.
+                                          The relative ranking between cloud services is done in a uniform way.
+        8.A framework for performance monitoring and analysis tools:
+                                          Analysis of many task applications on cloud.
+                                          Compute performance of tested clouds is low and this tool is not compatible with large resources(limitations).
+                                          Achieves High performance than grid or parallel computing.
+        9.AHP hierarchy using SMI architecture
+                                          It computes all the QoS attributes proposed by Cloud Service Measurement Index Consortium (CSMIC).0
+                                          Cloud performance has higher performance than source environment.
+       10.CloudRank Framework
+                          It performs component ranking by taking the advantages of service candidates.
+                          It aggregates the preference between a pair of components to produce a ranking of components.
+       11.QoS Ranking Prediction Framework
+                          It performs service ranking by taking the advantages of service candidates.
+                          It predicts QoS Ranking directly instead of predicting QoS values.

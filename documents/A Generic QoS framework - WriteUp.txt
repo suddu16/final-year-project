@@ -1,0 +1,73 @@
+Paper : A Generic QoS framework for cloud workflow systems
+
+Abstract :
+          Challenge : To achieve satisfactory QoS in cloud workflow systems.
+                      Qos requirements have different dimension and to ensure reduced complexity and cost, a unified system design is required.
+          Solution :  A generic QoS framework covering consisting of four components
+                      1. QoS Requirement Specification
+                      2. QoS-aware service selection
+                      3. QoS-consistency monitoring
+                      4. Qos-violation handling
+Intro :
+      What is cloud computing? - A paradigm where a platform for computation is provided in a remote place instead of in a personal computer.
+      What is cloud workflow system? - Middleware services for facilitating the use of cloud services.
+      Present issue - To deliver cloud workflow applications with satisfactory QoS because cloud has a dynamic nature.
+      Major QoS dimensions - performance, reliability, security, availability, accessibility, fidelity, integrity, cost.
+      QoS dimensions are diverse and hence for a new dimension to be supported by an existing system ,new components need to be run separately under the system and thus increase complexity.
+      This paper aims to provide a generic framework for integrating and managing the components for supporting different QoS dimensions.
+      Different stages exist in cloud workflow - specifically - modelling stage, the instantiation stage and the execution stage.
+      To get satisfactory QoS effort should be put in all the stages.
+Problem Analysis :
+      Cloud service quality is uncertain. Various factors affecting it-network connection, system overload, failures of software or infrastructures at the service provider side
+      Also affected by economic factors - service prices and customer loyalty levels.
+      A cloud workflow instance may consist of partially ordered cloud services from different providers.
+      Given that each cloud service is in itself uncertain the uncertainty of the instance is very high.
+      Thus, a framework to support the lifecycle of a workflow instance is required.
+The QoS Framework :
+      Lifecycle of a workflow instance :
+      1.Modelling
+          The e-business/e-science processes are modelled into cloud workflows specs.
+          Objectives,prices and penalties are discussed.
+      2.Instantiation
+          Search for candidate cloud services is done based on contracts.
+          Instance ready for execution
+      3.Execution
+          QoS violations and exceptions are handled
+      Framework :
+    1.QoS Requirement Specification :(modelling stage)
+          Very important part of the workflow specifications.Generally either qualitative or quantitative.
+          Workflow-level contraints exists as well as activity-level constraints.
+          Due to uncertain nature of cloud services and the working of the instance, some probabilistic strategies are required for setting the QoS constraints.
+    2.QoS-aware service selection : (instantiation stage)
+          Based on requirements the service selection is to be made.
+          Sometimes all requirements can't be satisfied and hence some trade-off is considered to meet most of them.
+          Ranking functions are used to select the best service provider based on these requirements and is reserved.
+          Other providers' information is kept but not reserved as reservation requires extra cost.
+    3.QoS Consistency Monitoring : (execution stage)
+          Runtime service quality is compared and contrasted with those specified in the QoS requirement specification.
+          For a single service this is straightforward.
+          But for large scale workflows, some probabilistic strategies are done to estimate the quality of the services that are not running at that instant.
+          This is similar to the constraint setting in the first stage but now with runtime information.
+          Also to check the QoS consistency of the workflow system as a whole,it is enough to verify the QoS constrains of every workflow task.
+          This is highly inefficient and hence certain information like the reputation of the service provider can be used and the checking can be skipped at certain points in time.
+    4.QoS Violation handling : (execution stage)
+          Checks for violation in QoS during monitoring and if it does violate, recovery mechanisms are done to bring it back to consistent state.
+          The recovery mechanism used in traditional functional failures is often useless (rollback and restart) in this case (the problem might become worse).
+          Minimize existing loss, ensure these violations do not occur in the upcoming workflows.
+Performance Framework(the framework proposed extended to particular QoS - Performance)
+    Concentrates on response time of the workflow application.
+    1. Temporal constraint setting
+    2. Temporal-aware service selection
+        Speed of CPU units, memory size, reliability, security.
+    3. Temporal consistency monitoring
+        Checkpoint Selection (necessary and sufficient)
+        Verification at these checkpoints.
+    4. Temporal violation handling
+        Recoverable violations are handled.
+        Three levels -
+          Level I - handled by TDA(time deficit allocation)
+          Level II - handled by ACOWR(ant colony optimisation based two- stage local workflow rescheduling strategy)
+          Level III - handled by TDA+ACOWR (the combined strategy of TDA and ACOWR)
+Future work
+    Other QoS specific frameworks are to be designed.
+    Also multi-QoS based service selection, monitoring and violation handling problems will be looked into.
