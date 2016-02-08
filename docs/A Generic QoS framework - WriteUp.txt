@@ -1,5 +1,6 @@
 Paper : A Generic QoS framework for cloud workflow systems
 
+
 Abstract :
           Challenge : To achieve satisfactory QoS in cloud workflow systems.
                       Qos requirements have different dimension and to ensure reduced complexity and cost, a unified system design is required.

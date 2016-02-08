@@ -1,5 +1,6 @@
 Paper : A Survey on QoS Ranking in Cloud Computing
 
+
 Abstract : QoS is an important factor in Cloud Computing. Cloud services are selected based on QoS attributes.
            A survery on QoS Ranking and Selection, their limitations and inferences are given.
 

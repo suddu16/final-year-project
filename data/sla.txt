@@ -1,6 +1,4 @@
 http://azure.microsoft.com/en-us/support/legal/sla/
-
-
 http://aws.amazon.com/ec2/sla/
 
 Monthly Uptime Percentage
@@ -24,10 +22,10 @@ This Service Level Attachment ("SLA" or "SLA Attachment" sets forth the applicab
 
 In the event of a Service Level Failure, Customer may be entitled to receive the applicable service credit set forth herein ("Service Credits").
 
- 
+
 
 1. Service Levels and Service Credits
- 
+
 
 A. VPDC Intrastructure Availability Service Level.
 VPDC Service offers three Service Profiles - Premier, Balanced and Essential. "VPDC Infrastructure" includes the infrastructure components listed below for all VPDC Service Profiles:
@@ -43,7 +41,7 @@ Internet Bandwidth
 VPDC Infrastructure Availability Service Level = 100% [per calendar month]
 * Network throughput is not part of VPDC Infrastructure Availability
 
- 
+
 
 If VPDC Infrastructure is subject to an Outage, a Service Level Failure shall be deemed to occur and Customer will be entitled to a Service Credit as follows:
 
@@ -52,7 +50,7 @@ Actual VPDC Infrastructure Availability per Calendar Month	Infrastructure Availa
 = 99.50 - = 99.00	                                          10% credit
 = 99.00 - = 98.50	                                           15% credit
 = 98.50	                                                           30% credit
- 
+
 
 B. Individual VPDC Environment Availability Service Level
 "VPDC Environment" includes the VPDC Service Components for the Premier, Balanced and Essential VPDC Service Profiles listed below that form an individual VPDC utilizing the VPDC Infrastructure.
@@ -62,22 +60,22 @@ Virtual Server(s)	?	?	?
 Operating System(s)	?	?	?
 ILM Storage	?	?	*
 Virtual Server Backup(s)	?	?	?
-Perimeter Firewall	?	?	 
-Server Tier Firewall	?	?	 
-Server Load Balancer	?	?	 
+Perimeter Firewall	?	?
+Server Tier Firewall	?	?
+Server Load Balancer	?	?
 Server Tier Networks	?	?	?
-Virtual Private Network ("VPN")	?	 	 
+Virtual Private Network ("VPN")	?
 Access Control List (ACL)	 	 	?
 * Essential runs on the same SAN storage as the other Service Profiles, but only offers
 a single (lowest) tier of storage, so the ILM functionality does not apply
 
- 
+
 
 VPDC Environment Availability Service Levels
 Premier = 99.99%, Balanced = 99.99%, Essential = 99.9%
 [per calendar month]
 
- 
+
 
 If a VPDC Environment is subject to an Outage, a Service Level Failure shall be deemed to occur and Customer will be entitled to a Service Credit as follows:
 
@@ -87,7 +85,7 @@ Cumulative Duration of VPDC Premier and Balanced Availability within a Calendar 
 = 98.99 - = 98.49	= 98.9 - = 97.9	20% credit
 = 98.49 - = 97.50	= 97.9 - = 97.0	30% credit
 = 97.50	= 97.0	50% credit
- 
+
 
 C. Symphony Cloud Storage Availability Service Level
 The Symphony Cloud Storage Service is provided with an Availability Service Level of 99.99% subject to the terms and conditions of this SLA. If the Symphony Cloud Storage Service is subject to an Outage, a Symphony Cloud Storage Availability Service Failure shall be deemed to occur and Customer is entitled to a Symphony Cloud Storage Credit set forth in the table below.
@@ -96,12 +94,12 @@ Cumulative Duration of Symphony Cloud Storage Availability within a Calendar Mon
 < 99.99% - = 99.9%	                                                                10% credit
 < 99.9% - = 99.0%	                                                                25% credit
 < 99.0%	40% credit
- 
+
 
 2. Process
 Customer must request any Service Credit due hereunder by submitting an e-mail to billing@savvis.com within sixty (60) calendar days of the conclusion of the month in which the Service Level Failure(s) occurs. Customer waives any right to Service Credits not requested within this sixty (60) calendar day period. Service Credits will be issued once validated by Savvis and applied toward the invoice which Customer receives no later than two (2) months following Customer's Service Credit request. All performance calculations and applicable Service Credits are based on Savvis records and data unless Customer can provide Savvis with clear and convincing evidence to the contrary within such sixty (60) calendar day period.
 
- 
+
 
 3. Limitations
 This SLA provides Customer's sole and exclusive remedies for any Service interruptions, deficiencies, or failures of any kind. To clarify, such sole and exclusive remedies shall not apply to breaches of unrelated obligations under the Agreement such as infringement, confidentiality, etc. Outages, Service Levels, and Service Credits set forth in this SLA Attachment shall not apply with respect to any Excluded Events.
@@ -114,7 +112,7 @@ Savvis managed applications and Savvis ATS network are not included in this SLA.
 
 Because Essential VPDC Virtual Servers and Operating Systems and all Client Provided Images are not maintained or managed by Savvis after initial creation, a detailed audit of the environment may be required before support or SLA analysis can begin.
 
- 
+
 
 4. Definitions
 "Affected Service" means the portion of the Services (e.g., VPDC Infrastructure/Environment component) directly impacted by the failure to meet the relevant Service Level described in this SLA attachment.
@@ -122,7 +120,7 @@ Because Essential VPDC Virtual Servers and Operating Systems and all Client Prov
 "Availability" means the monthly percentage of time during a calendar month during which the Service is not subject to an Outage.
 
 Availability is expressed as a percentage and calculated as follows:
-[Total minutes in the relevant calendar month (minus periods of Scheduled Maintenance) – Cumulative total minutes of Outage in such month] / [Total minutes in such month (minus periods of Scheduled Maintenance] x 100
+[Total minutes in the relevant calendar month (minus periods of Scheduled Maintenance) ï¿½ Cumulative total minutes of Outage in such month] / [Total minutes in such month (minus periods of Scheduled Maintenance] x 100
 
 "Bandwidth" means the Savvis Hosted Area Network Internet Access.
 
@@ -151,12 +149,12 @@ This Service Level Attachment ("SLA" or "SLA Attachment") sets forth the applica
 
 In the event of a Service Level Failure, Customer may be entitled to receive the applicable Service Credit in accordance with the terms set forth herein.
 
- 
+
 
 1. Service Levels and Service Credits
 CDC Service Levels and Credits apply to both the CDC Infrastructure and individual CDC Environments. Each is set forth below.
 
- 
+
 
 A. Infrastructure Availability Service Level = 100% per Month
 "Infrastructure" includes the infrastructure components listed below*:
@@ -180,7 +178,7 @@ Service Level Agreement (SLA)
 This SLA applies to the Management Console Services and is part of your Service Agreement.
 
 Service Level Target/Credit Calculation
-Management Console. Savvis will make commercially reasonable efforts to make the Management Console available with a 99.98% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. The Service is considered available when the Management Console web site is accessible or as reasonably determined by Savvis. Availability is measured as the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: Availability = [total minutes in a calendar month (minus periods of Scheduled Maintenance) – total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for Management Console Availability.
+Management Console. Savvis will make commercially reasonable efforts to make the Management Console available with a 99.98% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. The Service is considered available when the Management Console web site is accessible or as reasonably determined by Savvis. Availability is measured as the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: Availability = [total minutes in a calendar month (minus periods of Scheduled Maintenance) ï¿½ total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for Management Console Availability.
 
 Management Console Availability in a Calendar Month                Service Credit
 
@@ -222,12 +220,12 @@ Definitions
 http://www.centurylinktechnology.com/sla-cloudstorage-service
 Savvis CLOUDSTORAGE
 Service Level Agreement (SLA)
- 
+
 
 This SLA applies to the CloudStorage Services and is part of your Service Agreement.
 
 Service Level Target/Credit Calculation
-CloudStorage Service. Savvis will make commercially reasonable efforts to make the CloudStorage Service available with a 99.95% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. The Service is considered available when you successfully establish a remote connection to the CloudStorage platform through which API commands can be executed and/or data can be accessed as reasonably determined by Savvis. Availability is measured as the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: Availability = [total minutes in a calendar month (minus periods of Scheduled Maintenance) – total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for CloudStorage Infrastructure availability.
+CloudStorage Service. Savvis will make commercially reasonable efforts to make the CloudStorage Service available with a 99.95% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. The Service is considered available when you successfully establish a remote connection to the CloudStorage platform through which API commands can be executed and/or data can be accessed as reasonably determined by Savvis. Availability is measured as the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: Availability = [total minutes in a calendar month (minus periods of Scheduled Maintenance) ï¿½ total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for CloudStorage Infrastructure availability.
 
 CloudStorage Service Infrastructure Availability in a Calendar Month
 
@@ -243,7 +241,7 @@ Less than 99.95%
 
                                                                                                          20%
 
-Network Availability. Savvis will make commercially reasonable efforts to make available the Network with a 99.98% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. Networks are considered available when the applications and data residing within the CloudServers platform are accessible or are available for access as reasonably determined by Savvis. Availability means the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: [total minutes in a calendar month (minus periods of Scheduled Maintenance) – total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for Network availability.
+Network Availability. Savvis will make commercially reasonable efforts to make available the Network with a 99.98% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. Networks are considered available when the applications and data residing within the CloudServers platform are accessible or are available for access as reasonably determined by Savvis. Availability means the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: [total minutes in a calendar month (minus periods of Scheduled Maintenance) ï¿½ total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for Network availability.
 
 Network Availability in a Calendar Month
 
@@ -301,12 +299,12 @@ Definitions
 http://www.centurylinktechnology.com/sla-cloudservers-service
 Savvis CLOUDSERVERS
 Service Level Agreement (SLA)
- 
+
 
 This SLA applies to the CloudServers Service and is part of your Service Agreement.
 
 Service Level Target/Credit Calculation
-CloudServers Service. Savvis will make commercially reasonable efforts to make the CloudServers Service available with a 99.95% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. The Service is considered available when you successfully establish a remote connection to the running virtual server instance through which operating system commands can be executed and/or data can be accessed as reasonably determined by Savvis. Availability is measured as the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: Availability = [total minutes in a calendar month (minus periods of Scheduled Maintenance) – total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for CloudServers Infrastructure Availability.
+CloudServers Service. Savvis will make commercially reasonable efforts to make the CloudServers Service available with a 99.95% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. The Service is considered available when you successfully establish a remote connection to the running virtual server instance through which operating system commands can be executed and/or data can be accessed as reasonably determined by Savvis. Availability is measured as the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: Availability = [total minutes in a calendar month (minus periods of Scheduled Maintenance) ï¿½ total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for CloudServers Infrastructure Availability.
 
 CloudServers Service Infrastructure Availability in a Calendar Month
 
@@ -315,14 +313,14 @@ CloudServers Service Infrastructure Availability in a Calendar Month
 (% of Monthly Recurring Charge for Affected Service)
 
 Greater than or equal to 99.95%
- 
+
                                                                                              0%
 
 Less than 99.95%
 
                                                                                              20%
 
-Network Availability. Savvis will make commercially reasonable efforts to make available the Network with a 99.98% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. Networks are considered available when the applications and data residing within the CloudServers platform are accessible or are available for access as reasonably determined by Savvis. Availability means the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: [total minutes in a calendar month (minus periods of Scheduled Maintenance) – total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for Network availability.
+Network Availability. Savvis will make commercially reasonable efforts to make available the Network with a 99.98% monthly availability service level target during any calendar month subject to the terms and conditions of this SLA. Networks are considered available when the applications and data residing within the CloudServers platform are accessible or are available for access as reasonably determined by Savvis. Availability means the percentage of time during a month in which the applicable Service is not subject to an Outage and is calculated as follows: [total minutes in a calendar month (minus periods of Scheduled Maintenance) ï¿½ total minutes of Outages in such month] / [total minutes in such month (minus periods of Scheduled Maintenance] x 100. For purposes of this SLA, you will be eligible for Service Credits as set forth in the following table for Network availability.
 
 Network Availability in a Calendar Month
 
@@ -384,13 +382,13 @@ Amazon S3 SLA
 http://aws.amazon.com/s3/sla/
 
 Effective Date: June 1, 2013
-This Amazon S3 Service Level Agreement (“SLA”) is a policy governing the use of Amazon Simple Storage Service (“Amazon S3”) under the terms of the Amazon Web Services Customer Agreement (the “AWS Agreement”) between Amazon Web Services, Inc. (“AWS”, “us” or “we”) and users of AWS’ services (“you”). This SLA applies separately to each account using Amazon S3. Unless otherwise provided herein, this SLA is subject to the terms of the AWS Agreement and capitalized terms will have the meaning specified in the AWS Agreement. We reserve the right to change the terms of this SLA in accordance with the AWS Agreement.
+This Amazon S3 Service Level Agreement (ï¿½SLAï¿½) is a policy governing the use of Amazon Simple Storage Service (ï¿½Amazon S3ï¿½) under the terms of the Amazon Web Services Customer Agreement (the ï¿½AWS Agreementï¿½) between Amazon Web Services, Inc. (ï¿½AWSï¿½, ï¿½usï¿½ or ï¿½weï¿½) and users of AWSï¿½ services (ï¿½youï¿½). This SLA applies separately to each account using Amazon S3. Unless otherwise provided herein, this SLA is subject to the terms of the AWS Agreement and capitalized terms will have the meaning specified in the AWS Agreement. We reserve the right to change the terms of this SLA in accordance with the AWS Agreement.
 Service Commitment
-AWS will use commercially reasonable efforts to make Amazon S3 available with a Monthly Uptime Percentage (defined below) of at least 99.9% during any monthly billing cycle (the “Service Commitment”). In the event Amazon S3 does not meet the Service Commitment, you will be eligible to receive a Service Credit as described below.
+AWS will use commercially reasonable efforts to make Amazon S3 available with a Monthly Uptime Percentage (defined below) of at least 99.9% during any monthly billing cycle (the ï¿½Service Commitmentï¿½). In the event Amazon S3 does not meet the Service Commitment, you will be eligible to receive a Service Credit as described below.
 Definitions
-“Error Rate” means: (i) the total number of internal server errors returned by Amazon S3 as error status “InternalError” or “ServiceUnavailable” divided by (ii) the total number of requests during that five minute period. We will calculate the Error Rate for each Amazon S3 account as a percentage for each five minute period in the monthly billing cycle. The calculation of the number of internal server errors will not include errors that arise directly or indirectly as a result of any of the Amazon S3 SLA Exclusions (as defined below).
-“Monthly Uptime Percentage” is calculated by subtracting from 100% the average of the Error Rates from each five minute period in the monthly billing cycle.
-A “Service Credit” is a dollar credit, calculated as set forth below, that we may credit back to an eligible Amazon S3 account.
+ï¿½Error Rateï¿½ means: (i) the total number of internal server errors returned by Amazon S3 as error status ï¿½InternalErrorï¿½ or ï¿½ServiceUnavailableï¿½ divided by (ii) the total number of requests during that five minute period. We will calculate the Error Rate for each Amazon S3 account as a percentage for each five minute period in the monthly billing cycle. The calculation of the number of internal server errors will not include errors that arise directly or indirectly as a result of any of the Amazon S3 SLA Exclusions (as defined below).
+ï¿½Monthly Uptime Percentageï¿½ is calculated by subtracting from 100% the average of the Error Rates from each five minute period in the monthly billing cycle.
+A ï¿½Service Creditï¿½ is a dollar credit, calculated as set forth below, that we may credit back to an eligible Amazon S3 account.
 Service Credits
 Service Credits are calculated as a percentage of the total charges paid by you for Amazon S3 for the billing cycle in which the error occurred in accordance with the schedule below.
 Monthly Uptime Percentage	                   Service Credit Percentage
@@ -400,16 +398,16 @@ We will apply any Service Credits only against future Amazon S3 payments otherwi
 Credit Request and Payment Procedures
 To receive a Service Credit, you must submit a claim by opening a case in the AWS Support Center. To be eligible, the credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include:
 
-the words “SLA Credit Request” in the subject line;
+the words ï¿½SLA Credit Requestï¿½ in the subject line;
 the dates and times of each incident of non-zero Error Rates that you are claiming; and
 your request logs that document the errors and corroborate your claimed outage (any confidential or sensitive information in these logs should be removed or replaced with asterisks).
 If the Monthly Uptime Percentage applicable to the month of such request is confirmed by us and is less than 99.9%, then we will issue the Service Credit to you within one billing cycle following the month in which your request is confirmed by us. Your failure to provide the request and other information as required above will disqualify you from receiving a Service Credit.
 Amazon S3 SLA Exclusions
-The Service Commitment does not apply to any unavailability, suspension or termination of Amazon S3, or any other Amazon S3 performance issues: (i) that result from a suspension described in Section 6.1 of the AWS Agreement; (ii) caused by factors outside of our reasonable control, including any force majeure event or Internet access or related problems beyond the demarcation point of Amazon S3; (iii) that result from any actions or inactions of you or any third party; (iv) that result from your equipment, software or other technology and/or third party equipment, software or other technology (other than third party equipment within our direct control); or (v) arising from our suspension and termination of your right to use Amazon S3 in accordance with the AWS Agreement (collectively, the “Amazon S3 SLA Exclusions”). If availability is impacted by factors other than those used in our calculation of the Error Rate, then we may issue a Service Credit considering such factors at our discretion.
+The Service Commitment does not apply to any unavailability, suspension or termination of Amazon S3, or any other Amazon S3 performance issues: (i) that result from a suspension described in Section 6.1 of the AWS Agreement; (ii) caused by factors outside of our reasonable control, including any force majeure event or Internet access or related problems beyond the demarcation point of Amazon S3; (iii) that result from any actions or inactions of you or any third party; (iv) that result from your equipment, software or other technology and/or third party equipment, software or other technology (other than third party equipment within our direct control); or (v) arising from our suspension and termination of your right to use Amazon S3 in accordance with the AWS Agreement (collectively, the ï¿½Amazon S3 SLA Exclusionsï¿½). If availability is impacted by factors other than those used in our calculation of the Error Rate, then we may issue a Service Credit considering such factors at our discretion.
 
 
 Amazon S3 Pricing
-Pay only for what you use. There is no minimum fee. Estimate your monthly bill using the AWS Simple Monthly Calculator. We charge less where our costs are less, and prices are based on the location of your Amazon S3 bucket. 
+Pay only for what you use. There is no minimum fee. Estimate your monthly bill using the AWS Simple Monthly Calculator. We charge less where our costs are less, and prices are based on the location of your Amazon S3 bucket.
 AWS Free Usage Tier*
 As part of the AWS Free Usage Tier, you can get started with Amazon S3 for free. Upon sign-up, new AWS customers receive 5 GB of Amazon S3 standard storage, 20,000 Get Requests, 2,000 Put Requests, and 15GB of data transfer out each month for one year.
 
@@ -417,9 +415,9 @@ As part of the AWS Free Usage Tier, you can get started with Amazon S3 for free.
 -------------------------------------------------------------------------
 
 Amazon RDS Service Level Agreement
-Create Free Account »
+Create Free Account ï¿½
 Effective Date: June 1, 2013
-This Amazon RDS Service Level Agreement ("SLA") is a policy governing the use of the Amazon Relational Database Service ("Amazon RDS") under the terms of the AWS Customer Agreement (the "AWS Agreement") between Amazon Web Services, Inc. ("AWS", "us" or "we") and users of AWS’ services ("you"). This SLA applies separately to each account using Amazon RDS. Unless otherwise provided herein, this SLA is subject to the terms of the AWS Agreement and capitalized terms will have the meaning specified in the AWS Agreement. We reserve the right to change the terms of this SLA in accordance with the AWS Agreement.
+This Amazon RDS Service Level Agreement ("SLA") is a policy governing the use of the Amazon Relational Database Service ("Amazon RDS") under the terms of the AWS Customer Agreement (the "AWS Agreement") between Amazon Web Services, Inc. ("AWS", "us" or "we") and users of AWSï¿½ services ("you"). This SLA applies separately to each account using Amazon RDS. Unless otherwise provided herein, this SLA is subject to the terms of the AWS Agreement and capitalized terms will have the meaning specified in the AWS Agreement. We reserve the right to change the terms of this SLA in accordance with the AWS Agreement.
 Service Commitment
 AWS will use commercially reasonable efforts to make Multi-AZ instances available with a Monthly Uptime Percentage (defined below) of at least 99.95% during any monthly billing cycle (the "Service Commitment"). In the event Amazon RDS does not meet the Monthly Uptime Percentage commitment, you will be eligible to receive a Service Credit as described below.
 Definitions
@@ -480,22 +478,22 @@ Pay only for what you use. There is no minimum fee. Estimate your monthly bill u
 Get Started with AWS for Free
 
 Create a Free Account
-AWS Free Tier includes 750hrs of Micro DB Instance each month for one year, 20GB of Storage, and 20GB for Backups with Amazon Relational Database Service (RDS). 
-View AWS Free Tier Details »
+AWS Free Tier includes 750hrs of Micro DB Instance each month for one year, 20GB of Storage, and 20GB for Backups with Amazon Relational Database Service (RDS).
+View AWS Free Tier Details ï¿½
 AWS RE:INVENT 2014
 Register to watch the Live Stream on November 12 & 13
 re:Invent Logo
 DB Instance Classes
 Amazon RDS currently supports the following DB Instance Classes:
 
-Instance Type	vCPU	Memory (GiB)	PIOPS-Optimized 
+Instance Type	vCPU	Memory (GiB)	PIOPS-Optimized
 Network Performance
 Standard - Current Generation
 db.m3.medium	1	3.75	-	Moderate
 db.m3.large	2	7.5	-	Moderate
 db.m3.xlarge	4	15	Yes	Moderate
 db.m3.2xlarge	8	30	Yes	High
-Memory optimized - current generation	 	 	 
+Memory optimized - current generation
 db.r3.large	2	15	-	Moderate
 db.r3.xlarge	4	30.5	Yes	Moderate
 db.r3.2xlarge	8	61	Yes	High
@@ -511,7 +509,7 @@ Oracle
 SQL Server
 PostgreSQL
 On-Demand DB Instances
-On-Demand DB Instances let you pay for compute capacity by the hour your DB Instance runs with no long-term commitments. This frees you from the costs and complexities of planning, purchasing, and maintaining hardware and transforms what are commonly large fixed costs into much smaller variable costs. 
+On-Demand DB Instances let you pay for compute capacity by the hour your DB Instance runs with no long-term commitments. This frees you from the costs and complexities of planning, purchasing, and maintaining hardware and transforms what are commonly large fixed costs into much smaller variable costs.
 Single-AZ Deployment
 The pricing below applies to a DB Instance deployed in a Single Availability Zone.
 
@@ -528,16 +526,16 @@ Monthly Availability % for a Given Region	Credit to Bill for HP Cloud Block Stor
 <99.5% to 99.0%	                                           20%
 <99.0%	                                                   30%
 Definitions
-HP Cloud Block Storage refers to HP’s block storage service, and does not refer to peripheral or separate services, such as but not limited to: the HP Cloud management console, HP Cloud language bindings, HP Cloud command line tools, HP Cloud Object Storage, HP Cloud CDN, or HP Cloud Compute.
+HP Cloud Block Storage refers to HPï¿½s block storage service, and does not refer to peripheral or separate services, such as but not limited to: the HP Cloud management console, HP Cloud language bindings, HP Cloud command line tools, HP Cloud Object Storage, HP Cloud CDN, or HP Cloud Compute.
 
-Availability of HP Cloud Block Storage (“the Service”) will be calculated at 6-minute intervals per AZ, by HP or a 3rd party of HP’s selection, for each Availability Zone (“AZ”), testing the ability of our users to perform operations of both the control plane (create, delete, attach, & detach volume API commands) and the data plane (ability to read/write from your storage volume).  During each 6-minute interval, availability will be calculated as the percentage of these test operations that succeed, and then a simple average across all 6-minute intervals within a month will calculate Monthly Availability for that AZ. For each user, in each region, HP will then take the lowest availability % they encountered in any AZ in which they had Block Storage activity during that month, as their “Monthly Availability Percentage” for that region.
+Availability of HP Cloud Block Storage (ï¿½the Serviceï¿½) will be calculated at 6-minute intervals per AZ, by HP or a 3rd party of HPï¿½s selection, for each Availability Zone (ï¿½AZï¿½), testing the ability of our users to perform operations of both the control plane (create, delete, attach, & detach volume API commands) and the data plane (ability to read/write from your storage volume).  During each 6-minute interval, availability will be calculated as the percentage of these test operations that succeed, and then a simple average across all 6-minute intervals within a month will calculate Monthly Availability for that AZ. For each user, in each region, HP will then take the lowest availability % they encountered in any AZ in which they had Block Storage activity during that month, as their ï¿½Monthly Availability Percentageï¿½ for that region.
 
-Any Availability Zone in which a customer has no HP Cloud Block Storage activity, defined as having 0 quantity of “Storage Volumes and Snapshots” on their bill in a given month, will by default be deemed to have had 100% availability for that customer for the given month.
+Any Availability Zone in which a customer has no HP Cloud Block Storage activity, defined as having 0 quantity of ï¿½Storage Volumes and Snapshotsï¿½ on their bill in a given month, will by default be deemed to have had 100% availability for that customer for the given month.
 
 Exclusions
 You are not entitled to a service credit if you are in breach of your Customer Agreement with HP, including your payment obligations.  The inability to create new block storage volumes due to exceeding your account quotas or improperly formed API requests are not covered by this SLA.
 
-To receive a service credit, you must file for a credit within 30 days of the end of the month in which availability was not met by contacting HP via the “Contact Us” link on the www.hpcloud.com website with a description of the downtime, how you were affected, and for how long.  HP reserves the right to withhold credit if it cannot verify the downtime or you cannot show that you were adversely affected in any way as a result of the downtime.
+To receive a service credit, you must file for a credit within 30 days of the end of the month in which availability was not met by contacting HP via the ï¿½Contact Usï¿½ link on the www.hpcloud.com website with a description of the downtime, how you were affected, and for how long.  HP reserves the right to withhold credit if it cannot verify the downtime or you cannot show that you were adversely affected in any way as a result of the downtime.
 
 The Service Level Agreement does not apply to any downtime, suspension, or termination of any HP services:
 
@@ -551,7 +549,7 @@ The service credit remedy set forth in this Service Level Agreement is your sole
 Service Level Agreement for HP Cloud CDN
 Service Commitment
 HP commits that HP Cloud CDN will be available 99.95% or more of the time in a given calendar month. If we (HP) fail to meet this commitment, just let us know and we will apply a service credit to your account. The service credit applied will be calculated by multiplying a) your total charges for HP Cloud CDN during the month we failed to meet the commitment by b) the percentage credit you qualify for in the table below:
- 
+
 Monthly Availability %	            Credit to Bill for HP Cloud CDN (not Total Bill)
 100% to 99.95%	                       N/A
 <99.95% to 99.9%	               5%
@@ -559,15 +557,15 @@ Monthly Availability %	            Credit to Bill for HP Cloud CDN (not Total Bi
 <99.5% to 99%	                       20%
 <99.0%	                               30%
 Definitions
-HP Cloud CDN refers to HP’s CDN service, including its partner’s CDN network used to deliver files via the HP Cloud CDN service, and does not refer to peripheral or separate services, such as but not limited to: the HP Cloud management console, HP Cloud language bindings, HP Cloud command line tools, HP Cloud Compute, HP Cloud Block Storage, or HP Cloud Object Storage. The HP Cloud CDN ("Service") will be considered unavailable when, for two or more consecutive 6-minute intervals ("Intervals"), the Service fails to download a test 512kb file, tested by HP or a 3rd party of HP’s selection, within 3 seconds. The Service will be considered unavailable for both of these Intervals and any subsequent contiguous Intervals, until the Service is again able to download the test file within 3 seconds. Temporary inability of the user to modify the enable/disable status or time to live (TTL) of content for the Service is not included in this definition. "Monthly Availability %" is calculated by dividing the number of Intervals where the Service is unavailable by the total number of Intervals in a month and subtracting that result from 100%. That is, Monthly Availability % = 100% – (Number of unavailable Intervals in a month/Total number of Intervals in a Month).
+HP Cloud CDN refers to HPï¿½s CDN service, including its partnerï¿½s CDN network used to deliver files via the HP Cloud CDN service, and does not refer to peripheral or separate services, such as but not limited to: the HP Cloud management console, HP Cloud language bindings, HP Cloud command line tools, HP Cloud Compute, HP Cloud Block Storage, or HP Cloud Object Storage. The HP Cloud CDN ("Service") will be considered unavailable when, for two or more consecutive 6-minute intervals ("Intervals"), the Service fails to download a test 512kb file, tested by HP or a 3rd party of HPï¿½s selection, within 3 seconds. The Service will be considered unavailable for both of these Intervals and any subsequent contiguous Intervals, until the Service is again able to download the test file within 3 seconds. Temporary inability of the user to modify the enable/disable status or time to live (TTL) of content for the Service is not included in this definition. "Monthly Availability %" is calculated by dividing the number of Intervals where the Service is unavailable by the total number of Intervals in a month and subtracting that result from 100%. That is, Monthly Availability % = 100% ï¿½ (Number of unavailable Intervals in a month/Total number of Intervals in a Month).
 
 Exclusions
 You are not entitled to a service credit if you are in breach of your Customer Agreement with HP, including your payment obligations. To receive a service credit, you must file for a credit within 30 days of the end of the month in which availability was not met by contacting HP via the Contact Us link on the HP Cloud website with a description of the downtime, how you were affected, and for how long. HP reserves the right to withhold credit if it cannot verify the downtime or you cannot show that you were adversely affected in any way as a result of the downtime. The Service Level Agreement does not apply to any downtime, suspension, or termination of any HP services:
 
 that result in account suspension or termination due to breach of the Customer Agreement;
-caused by factors outside of our reasonable control, including any force majeure event or customer’s overall Internet access;
+caused by factors outside of our reasonable control, including any force majeure event or customerï¿½s overall Internet access;
 that result from any actions or inactions of you or any third party; or
-that result from your equipment, software or other technology and/or third party equipment, software or other technology (other than those which are under our direct control and/or HP’s partner’s CDN network used to deliver files via the HP Cloud CDN service).
+that result from your equipment, software or other technology and/or third party equipment, software or other technology (other than those which are under our direct control and/or HPï¿½s partnerï¿½s CDN network used to deliver files via the HP Cloud CDN service).
 The service credit remedy set forth in this Service Level Agreement is your sole and exclusive remedy for downtime of HP Cloud CDN.
 ---------------------------------------------------------------------------
 
@@ -583,7 +581,7 @@ Monthly Availability % (per Region)	Credit to Bill for HP Cloud Compute for a Gi
 <99.5% to 99%	                           20%
 <99.0%	                                   30%
 Definitions
-HP Cloud Compute refers to HP’s compute service, and does not refer to peripheral or separate services, including but not limited to: the HP Cloud management console, HP Cloud language bindings, HP Cloud command line tools, HP Cloud CDN, HP Cloud Block Storage, or HP Cloud Object Storage. An "instance" means a customer’s virtual machine created within HP Cloud Compute. A "Region" represents a geographic area that is no more than 100 miles in diameter and consists of multiple physically separate Availability Zones. An "Availability Zone" is a deployment of HP Cloud Compute which consists of a separate API endpoint in which customers can choose to create instances. "Monthly Availability %" is calculated per Region on a monthly basis, as 100% minus: i) Total instance-downtime-minutes, divided by ii) Total instance-minutes "Total instance-minutes" is defined as the aggregate amount of time all instances are running for a customer during a given month in a given Region. "Total instance-downtime-minutes" is calculated as the sum of each instance's downtime minutes, during the course of a month. For each instance, "downtime minutes" are accrued starting at the beginning of the first 6 minute interval during which the instance was inaccessible and the user was unable to launch a replacement instance in the same Region, and continue until the ability to launch a replacement instance is restored, including the time that would be required for a replacement instance to become accessible.
+HP Cloud Compute refers to HPï¿½s compute service, and does not refer to peripheral or separate services, including but not limited to: the HP Cloud management console, HP Cloud language bindings, HP Cloud command line tools, HP Cloud CDN, HP Cloud Block Storage, or HP Cloud Object Storage. An "instance" means a customerï¿½s virtual machine created within HP Cloud Compute. A "Region" represents a geographic area that is no more than 100 miles in diameter and consists of multiple physically separate Availability Zones. An "Availability Zone" is a deployment of HP Cloud Compute which consists of a separate API endpoint in which customers can choose to create instances. "Monthly Availability %" is calculated per Region on a monthly basis, as 100% minus: i) Total instance-downtime-minutes, divided by ii) Total instance-minutes "Total instance-minutes" is defined as the aggregate amount of time all instances are running for a customer during a given month in a given Region. "Total instance-downtime-minutes" is calculated as the sum of each instance's downtime minutes, during the course of a month. For each instance, "downtime minutes" are accrued starting at the beginning of the first 6 minute interval during which the instance was inaccessible and the user was unable to launch a replacement instance in the same Region, and continue until the ability to launch a replacement instance is restored, including the time that would be required for a replacement instance to become accessible.
 
 "Inaccessible" means that the operating system in the replacement instance could not respond to API or network requests, despite proper security group configuration, for 6 minutes or more.
 "Accessible" means that the operating system in the replacement instance could respond to network requests.
@@ -597,7 +595,7 @@ that result in account suspension or termination due to breach of the Customer A
 caused by factors outside of our reasonable control, including any force majeure event or Internet access or related problems beyond the demarcation point of HP-controlled datacenters;
 that result from any actions or inactions of you or any third party; or
 that result from your equipment, software or other technology and/or third party equipment, software or other technology (other than those which are under our direct control).
- 
+
 
 The service credit remedy set forth in this Service Level Agreement is your sole and exclusive remedy for any failure to meet availability of HP Cloud Compute.
 
@@ -666,7 +664,7 @@ The service credit remedy set forth in this Service Level Agreement is your sole
 http://www.ibm.com/cloud-computing/in/en/products/managed-cloud.html
 M SmartCloud Enterprise+
 
-IBM SmartCloud Enterprise+ is a fully managed, highly secure IaaS cloud optimised for critical enterprise workloads. SmartCloud Enterprise+ offers SLAs with 99.9% virtual server uptime and many advantages of a private cloud—such as options for dedicated servers and storage—while providing flexible scaling and the benefits of cloud economics.
+IBM SmartCloud Enterprise+ is a fully managed, highly secure IaaS cloud optimised for critical enterprise workloads. SmartCloud Enterprise+ offers SLAs with 99.9% virtual server uptime and many advantages of a private cloudï¿½such as options for dedicated servers and storageï¿½while providing flexible scaling and the benefits of cloud economics.
 
 Flexible options and cloud services managed by IBM mean you can embrace the cloud with confidence.
 The IBM SmartCloud Enterprise+ with AT&T NetBond option provides a pre-integrated network-enabled cloud, enhancing network performance and flexibility by extending an AT&T VPN into the IBM SmartCloud.
@@ -675,27 +673,27 @@ Close [x]
 
 IBM SmartCloud Enterprise+ with AT&T NetBond
 
-Built to handle large enterprise production workloads, this pre-integrated "cloud-within-the-network" infrastructure helps organisations enjoy the flexibility and simplicity of public cloud with many of the security advantages of a private cloud. 
+Built to handle large enterprise production workloads, this pre-integrated "cloud-within-the-network" infrastructure helps organisations enjoy the flexibility and simplicity of public cloud with many of the security advantages of a private cloud.
 
-Flexible 
-- Network and infrastructure are elastic and flex together. 
+Flexible
+- Network and infrastructure are elastic and flex together.
 - Network resource over- or under-provisioning is avoided.
 
-IBM and AT&T Cloud within the network—video (00:02:34)
+IBM and AT&T Cloud within the networkï¿½video (00:02:34)
 
-Simple 
-- Assets and applications are embedded in the same network. 
-- Direct integration reduces complexity for IT staff. 
+Simple
+- Assets and applications are embedded in the same network.
+- Direct integration reduces complexity for IT staff.
 
-Highly Secure 
-- Integrated networking projects data traffic in transit. 
-- Risks from Internet-facing threats like DDOS are avoided. 
+Highly Secure
+- Integrated networking projects data traffic in transit.
+- Risks from Internet-facing threats like DDOS are avoided.
 
 With this fully managed service, you can worry less about security and focus more on how to use the cloud to transform the way you deliver services. Learn more about IBM SmartCloud Enterprise+ with AT&T NetBond today:
 
-Pattern Expertise graphic IBM SmartCloud Enterprise+ with AT&T NetBond—data sheet (970KB)
+Pattern Expertise graphic IBM SmartCloud Enterprise+ with AT&T NetBondï¿½data sheet (970KB)
 
-AT&T and IBM Create Breakthrough Global Cloud Service for Businesses—press release (US)Enterprise Grade Public Cloud: Have the Best of Both Worlds—webinar (00:52:50) AT&T and IBM’S Private Cloud Partnership: From Competition to Coopetition—white paper (689KB)
+AT&T and IBM Create Breakthrough Global Cloud Service for Businessesï¿½press release (US)Enterprise Grade Public Cloud: Have the Best of Both Worldsï¿½webinar (00:52:50) AT&T and IBMï¿½S Private Cloud Partnership: From Competition to Coopetitionï¿½white paper (689KB)
 
 
 
@@ -724,7 +722,7 @@ ITIL-compliant OS management: monitoring, patching, security, etc.
   Availability
   Choice and control
   Security
-“We needed to implement infrastructure that was secure and scalable, as efficiently and effectively as possible. IBM SCE+ has freed us to focus our time and resources on bringing our service to market.”
+ï¿½We needed to implement infrastructure that was secure and scalable, as efficiently and effectively as possible. IBM SCE+ has freed us to focus our time and resources on bringing our service to market.ï¿½
 
 - Brian Mofford, Vice President, Drivewyze
 
@@ -752,7 +750,7 @@ ITIL-based cloud management services to provide governance and control
 Self-service web portal to monitor, manage and control the environment
 Production storage with a separate dedicated SAN and 8 GB connections
 Standard set of software images (operating systems, middleware and databases)
-Bring your licence with Microsoft’s License Mobility through Software Assurance
+Bring your licence with Microsoftï¿½s License Mobility through Software Assurance
 Close [x]
 
 Security
@@ -775,34 +773,34 @@ https://www.joyent.com/company/policies/cloud-hosting-service-level-agreement
 Cloud Hosting Service Level Agreement
 1. Coverage and Definitions
 
-This Web Site Availability Service Level Agreement (SLA) applies to you ("customer") if you have ordered SmartMachines, Smart Appliances, and/or Virtual Machines from Joyent (the "Services") and your account is current (i.e., not past due) with Joyent As used herein, the term "Availability" means the percentage of a particular month (based on 24-hour days for the number of days in the subject month) that the content of customer’s hosted system is available for access by third parties via HTTP and HTTPS, as measured by Joyent.
+This Web Site Availability Service Level Agreement (SLA) applies to you ("customer") if you have ordered SmartMachines, Smart Appliances, and/or Virtual Machines from Joyent (the "Services") and your account is current (i.e., not past due) with Joyent As used herein, the term "Availability" means the percentage of a particular month (based on 24-hour days for the number of days in the subject month) that the content of customerï¿½s hosted system is available for access by third parties via HTTP and HTTPS, as measured by Joyent.
 
 2. Service Level
 
-Goal: Joyent’s goal is to achieve 100% Availability for all customers.
+Goal: Joyentï¿½s goal is to achieve 100% Availability for all customers.
 
-Remedy: Subject to Sections 3 and 4 below, if the Availability of customer’s Services is less than 100%, Joyent will credit the customer 5% of the monthly fee for each 30 minutes of downtime (up to 100% of customer’s monthly fee for the affected server).
+Remedy: Subject to Sections 3 and 4 below, if the Availability of customerï¿½s Services is less than 100%, Joyent will credit the customer 5% of the monthly fee for each 30 minutes of downtime (up to 100% of customerï¿½s monthly fee for the affected server).
 
 3. Exceptions
 
 Customer shall not receive any credits under this SLA in connection with any failure or deficiency of Availability caused by or associated with:
 
-circumstances beyond Joyent’s reasonable control, including, without limitation, acts of any governmental body, war, insurrection, sabotage, armed conflict, embargo, fire, flood, strike or other labor disturbance, interruption of or delay in transportation, unavailability of or interruption or delay in telecommunications or third party services, virus attacks or hackers, failure of third party software (including, without limitation, ecommerce software, payment gateways, chat, statistics or free scripts) or inability to obtain raw materials, supplies, or power used in or equipment needed for provision of this SLA;
+circumstances beyond Joyentï¿½s reasonable control, including, without limitation, acts of any governmental body, war, insurrection, sabotage, armed conflict, embargo, fire, flood, strike or other labor disturbance, interruption of or delay in transportation, unavailability of or interruption or delay in telecommunications or third party services, virus attacks or hackers, failure of third party software (including, without limitation, ecommerce software, payment gateways, chat, statistics or free scripts) or inability to obtain raw materials, supplies, or power used in or equipment needed for provision of this SLA;
 failure of access circuits to the Joyent Network, unless such failure is caused solely by Joyent;
 scheduled maintenance and emergency maintenance and upgrades;
 DNS issues outside the direct control of Joyent;
 issues with FTP, POP, IMAP, or SMTP customer access;
-false SLA breaches reported as a result of outages or errors of any Joyent measurement system; customer’s acts or omissions (or acts or omissions of others engaged or authorized by customer), including, without limitation, custom scripting or coding (e.g., CGI, Perl, HTML, ASP, Ruby, PHP, Python etc), any negligence, willful misconduct, or use of the Services in breach of Joyent’s Terms and Conditions and Acceptable Use Policy;
+false SLA breaches reported as a result of outages or errors of any Joyent measurement system; customerï¿½s acts or omissions (or acts or omissions of others engaged or authorized by customer), including, without limitation, custom scripting or coding (e.g., CGI, Perl, HTML, ASP, Ruby, PHP, Python etc), any negligence, willful misconduct, or use of the Services in breach of Joyentï¿½s Terms and Conditions and Acceptable Use Policy;
 e-mail or webmail delivery and transmission;
 DNS (Domain Name Server) Propagation;
 outages elsewhere on the Internet that hinder access to your account
-Joyent is not responsible for browser or DNS caching that may make your site appear inaccessible when others can still access it. Joyent will guarantee only those areas considered under the control of Joyent: Joyent server links to the Internet, Joyent’s routers, and Joyent’s servers.
+Joyent is not responsible for browser or DNS caching that may make your site appear inaccessible when others can still access it. Joyent will guarantee only those areas considered under the control of Joyent: Joyent server links to the Internet, Joyentï¿½s routers, and Joyentï¿½s servers.
 
 4. Credit Request and Payment Procedures
 
-To receive a credit, the customer must make a request by sending an e-mail message to support@Joyent.com. The e-mail message MUST include the domain name of the customer’s account in the "Subject" line. Each request in connection with this SLA must include the customer’s account number (per Joyent’s invoice) and the dates and times of the unavailability of customer’s Web site and must be received by Joyent within ten (10) business days after the customer’s Web Site was not available. If the unavailability is confirmed by Joyent, credits will be applied within two billing cycles after Joyent’s receipt of the customer’s credit request. Credits are not refundable and can be used only towards future billing charges.
+To receive a credit, the customer must make a request by sending an e-mail message to support@Joyent.com. The e-mail message MUST include the domain name of the customerï¿½s account in the "Subject" line. Each request in connection with this SLA must include the customerï¿½s account number (per Joyentï¿½s invoice) and the dates and times of the unavailability of customerï¿½s Web site and must be received by Joyent within ten (10) business days after the customerï¿½s Web Site was not available. If the unavailability is confirmed by Joyent, credits will be applied within two billing cycles after Joyentï¿½s receipt of the customerï¿½s credit request. Credits are not refundable and can be used only towards future billing charges.
 
-Notwithstanding anything to the contrary herein, the total amount credited to customer in a particular month under this SLA shall not exceed the total hosting fee paid by customer for such month for the affected Services. Credits are exclusive of any applicable taxes charged to customer or collected by Joyent and are customer’s sole and exclusive remedy with respect to any failure or deficiency in the availability of the Services.
+Notwithstanding anything to the contrary herein, the total amount credited to customer in a particular month under this SLA shall not exceed the total hosting fee paid by customer for such month for the affected Services. Credits are exclusive of any applicable taxes charged to customer or collected by Joyent and are customerï¿½s sole and exclusive remedy with respect to any failure or deficiency in the availability of the Services.
 
 Note: Credits are not refundable and can be used only towards future billing charges.
 
@@ -851,7 +849,7 @@ Download Cache SLA
 
 CDN
 
-We guarantee that at least 99.9% of the time CDN will respond to client requests and deliver the requested content without error. We will review and accept data from any commercially reasonable independent measurement system that you choose to monitor your content. You must select a set of agents from the measurement system’s list of standard agents that are generally available and represent at least five geographically diverse locations in major worldwide metropolitan areas (excluding PR of China).
+We guarantee that at least 99.9% of the time CDN will respond to client requests and deliver the requested content without error. We will review and accept data from any commercially reasonable independent measurement system that you choose to monitor your content. You must select a set of agents from the measurement systemï¿½s list of standard agents that are generally available and represent at least five geographically diverse locations in major worldwide metropolitan areas (excluding PR of China).
 
 Download CDN SLA
 
@@ -975,23 +973,23 @@ Last week we made these new capabilities available in preview form, and also int
 
 New SQL Database Service Tiers
 
-Last week we introduced a new Basic and Standard tier option with SQL Databases – which are additions to the existing Premium tier we previously announced.  Collectively these tiers provide a flexible set of offerings that enable you to cost effectively deploy and host SQL Databases on Azure:
+Last week we introduced a new Basic and Standard tier option with SQL Databases ï¿½ which are additions to the existing Premium tier we previously announced.  Collectively these tiers provide a flexible set of offerings that enable you to cost effectively deploy and host SQL Databases on Azure:
 
 Basic Tier: Designed for applications with a light transactional workload. Performance objectives for Basic provide a predictable hourly transaction rate.
 Standard Tier: Standard is the go-to option for cloud-designed business applications. It offers mid-level performance and business continuity features. Performance objectives for Standard deliver predictable per minute transaction rates.
 Premium Tier: Premium is designed for mission-critical databases. It offers the highest performance levels and access to advanced business continuity features. Performance objectives for Premium deliver predictable per second transaction rates.
-You do not need to buy a SQL Server license in order to use any of these pricing tiers – all of the licensing and runtime costs are built-into the price, and the databases are automatically managed (high availability, auto-patching and backups are all built-in).  We also now provide you the ability to pay for the database at the per-day granularity (meaning if you only run the database for a few days you only pay for the days you had it – not the entire month). 
+You do not need to buy a SQL Server license in order to use any of these pricing tiers ï¿½ all of the licensing and runtime costs are built-into the price, and the databases are automatically managed (high availability, auto-patching and backups are all built-in).  We also now provide you the ability to pay for the database at the per-day granularity (meaning if you only run the database for a few days you only pay for the days you had it ï¿½ not the entire month).
 
 The price for the new SQL Database Basic tier starts as low as $0.16/day ($4.96 per month) for a 2 GB SQL Database.  During the preview period we are providing an additional 50% discount on top of these prices.  You can learn more about the pricing of the new tiers here.
 
 Improved 99.95% SLA and Larger Database Sizes
 
-We are extending the availability SLA of all of the new SQL Database tiers to be 99.95%.  This SLA applies to the Basic, Standard and Premium tier options – enabling you to deploy and run SQL Databases on Azure with even more confidence.
+We are extending the availability SLA of all of the new SQL Database tiers to be 99.95%.  This SLA applies to the Basic, Standard and Premium tier options ï¿½ enabling you to deploy and run SQL Databases on Azure with even more confidence.
 
 We are also increasing the maximum sizes of databases that are supported:
 
 Basic Tier: Supports databases up to 2 GB in size
-Standard Tier: Supports databases up to 250 GB in size. 
+Standard Tier: Supports databases up to 250 GB in size.
 Premium Tier: Supports databases up to 500 GB in size.
 Note that the pricing model for our service tiers has also changed so that you no longer need to pay a per-database size fee (previously we charged a per-GB rate) - instead we now charge a flat rate per service tier.
 
@@ -1009,15 +1007,15 @@ Performance Metircs
 
 Dynamically Adjusting your Service Tier
 
-One of the benefits of the new SQL Database Service Tiers is that you can dynamically increase or decrease them depending on the needs of your application.  For example, you can start off on a lower service tier/performance level and then gradually increase the service tier levels as your application becomes popular and you need more resources. 
+One of the benefits of the new SQL Database Service Tiers is that you can dynamically increase or decrease them depending on the needs of your application.  For example, you can start off on a lower service tier/performance level and then gradually increase the service tier levels as your application becomes popular and you need more resources.
 
-It is quick and easy to change between service tiers or performance levels — it’s a simple online operation.  Because you now pay for SQL Databases by the day (as opposed to the month) this ability to dynamically adjust your service tier up or down also enables you to leverage the elastic nature of the cloud and save money.
+It is quick and easy to change between service tiers or performance levels ï¿½ itï¿½s a simple online operation.  Because you now pay for SQL Databases by the day (as opposed to the month) this ability to dynamically adjust your service tier up or down also enables you to leverage the elastic nature of the cloud and save money.
 
 Read this article to learn more about how performance works in the new system and the benchmarks for each service tier.
 
 New Service-Service Restore Support
 
-Have you ever had that sickening feeling when you’ve realized that you inadvertently deleted data within a database and might not have a backup?  We now have built-in Service Service Restore support with SQL Databases that helps you protect against this.  This support is available in all service tiers (even the Basic Tier).
+Have you ever had that sickening feeling when youï¿½ve realized that you inadvertently deleted data within a database and might not have a backup?  We now have built-in Service Service Restore support with SQL Databases that helps you protect against this.  This support is available in all service tiers (even the Basic Tier).
 
 SQL Databases now automatically takes database backups daily and log backups every 5 minutes. The daily backups are also stored in geo-replicated Azure Storage (which will store a copy of them at least 500 miles away from your primary region).
 
@@ -1028,26 +1026,26 @@ Standard Tier: Restore to any point in last 7 days
 -------------------------------------------------------
 http://www.rackspace.com/information/legal/cloud/sla
 Cloud Big Data Platform SLA
-Rackspace Cloud Big Data Platform is a preconfigured group of virtual servers running Hadoop software (“Cluster”). Each Cluster is comprised of two related subsystems, the control plane and the data plane, each with its own service level guarantee. 
+Rackspace Cloud Big Data Platform is a preconfigured group of virtual servers running Hadoop software (ï¿½Clusterï¿½). Each Cluster is comprised of two related subsystems, the control plane and the data plane, each with its own service level guarantee.
 
 I. CONTROL PLANE
-The “control plane” is the Cloud Big Data API (Application Programming Interface) used to create, manage, and delete Clusters. Rackspace guarantees the control plane will be available 99.9% of the time in any given monthly billing period. 
+The ï¿½control planeï¿½ is the Cloud Big Data API (Application Programming Interface) used to create, manage, and delete Clusters. Rackspace guarantees the control plane will be available 99.9% of the time in any given monthly billing period.
 
-                            SLA Credit for Control Plane:     
+                            SLA Credit for Control Plane:
                             Monthly Availability        Credit Percentage*
-                            100% - 99.9%                               0%    
+                            100% - 99.9%                               0%
                             < 99.9% - 99.5%                          10%
                             < 99.5% - 99.0%                          20%
                             < 99.0%                                  30%
 
-“Monthly Availability” is calculated on a per customer, per region basis, for a given monthly billing period, as follows (represented as a percentage):
-                            1 – (Total API Errors)/(Total Valid API Requests) 
+ï¿½Monthly Availabilityï¿½ is calculated on a per customer, per region basis, for a given monthly billing period, as follows (represented as a percentage):
+                            1 ï¿½ (Total API Errors)/(Total Valid API Requests)
 
 * Credits will be calculated as a percentage of all Cluster fees in the affected region for the monthly billing period.
 
 
-II. DATA PLANE 
-The “data plane” includes Clusters created via the control plane plus supporting systems and services required for the proper functioning and availability of the Clusters.  Customers manage and have full control over their Clusters and Rackspace makes the following guarantees with regards to the following supporting systems and services:  
+II. DATA PLANE
+The ï¿½data planeï¿½ includes Clusters created via the control plane plus supporting systems and services required for the proper functioning and availability of the Clusters.  Customers manage and have full control over their Clusters and Rackspace makes the following guarantees with regards to the following supporting systems and services:
 
 Network
 Rackspace guarantees that its data center network will be available 100% of the time in any given monthly billing period, excluding scheduled or emergency maintenance.  Network downtime exists when a Cluster is not reachable as a result of a failure in the data center network.
@@ -1060,8 +1058,8 @@ Rackspace guarantees that data center HVAC (Heating, Ventilation and Air Conditi
                SLA Credit for Data Center Infrastructure Downtime: 5% of the Cluster fees for each 30 minutes of data center infrastructure downtime (or portion thereof), up to 100% of the Cluster fees.**
 
 Cluster Hosts
-Rackspace guarantees the functioning of all Cluster hosts including the hypervisor.  If a Cluster host fails, Rackspace guarantees that restoration or repair will be complete within one hour of problem identification.  
- 
+Rackspace guarantees the functioning of all Cluster hosts including the hypervisor.  If a Cluster host fails, Rackspace guarantees that restoration or repair will be complete within one hour of problem identification.
+
               SLA Credit for Cluster Host Downtime: 5% of the Cluster fees for each additional hour of downtime (or portion thereof), after the first hour, up to 100% of the Cluster fees. **
 
 ** SLA credits will be calculated as a percentage of the Cluster fees for those Clusters adversely affected by the failure for the monthly billing period during which the failure occurred.
@@ -1071,22 +1069,22 @@ III. DEFINITIONS AND LIMITATIONS
 Definitions
 For purposes of the Service Level Agreements outlined above:
 
-•    “API error” is defined as: (i) an HTTP 5xx server error response to a valid API request or  (ii) no response to a valid API request because the API is down.  Network errors or downtime outside of the Rackspace data center network do not constitute an API error;
-•    "Cluster" means a group of virtual servers preconfigured with Hadoop software;
-•    "Cluster fees" means the fees for your Cluster for the monthly billing period in which the failure occurred ;
-•    "cluster host" means the group of physical servers which hosts your Cluster;
-•    "data center network" means the portion of the Rackspace network extending from the network egress point of your Cluster to the outbound port of the data center border router;
-•    “emergency maintenance” means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability;
-•    "power" excludes Cluster host power supplies which is covered as part of the Cluster  hosts guarantee;
-•    “region” means a particular physical location where the Cluster exists (e.g. Dallas, Chicago, London).  Cluster control and data planes are independent per region and do not span regions;
-•    "scheduled maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least 72 hours in advance;
-•    “valid API request” is defined as a well formed request that complies with the published API specification;
+ï¿½    ï¿½API errorï¿½ is defined as: (i) an HTTP 5xx server error response to a valid API request or  (ii) no response to a valid API request because the API is down.  Network errors or downtime outside of the Rackspace data center network do not constitute an API error;
+ï¿½    "Cluster" means a group of virtual servers preconfigured with Hadoop software;
+ï¿½    "Cluster fees" means the fees for your Cluster for the monthly billing period in which the failure occurred ;
+ï¿½    "cluster host" means the group of physical servers which hosts your Cluster;
+ï¿½    "data center network" means the portion of the Rackspace network extending from the network egress point of your Cluster to the outbound port of the data center border router;
+ï¿½    ï¿½emergency maintenanceï¿½ means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability;
+ï¿½    "power" excludes Cluster host power supplies which is covered as part of the Cluster  hosts guarantee;
+ï¿½    ï¿½regionï¿½ means a particular physical location where the Cluster exists (e.g. Dallas, Chicago, London).  Cluster control and data planes are independent per region and do not span regions;
+ï¿½    "scheduled maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least 72 hours in advance;
+ï¿½    ï¿½valid API requestï¿½ is defined as a well formed request that complies with the published API specification;
 
 Limitations
-•    You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to Rackspace) until you have cured the breach.  You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services.  You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within Rackspace’s control.
-•    To receive a credit, you must log a request via ticket in the Rackspace cloud control panel within thirty (30) days following the end of the downtime and provide logs evidencing Rackspace’s failure to meet the SLA. You must show that your use of your Cluster was adversely affected in some way as a result of the downtime to be eligible for the credit. 
-•    Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your Cluster fee for that billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods. 
-  
+ï¿½    You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to Rackspace) until you have cured the breach.  You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services.  You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within Rackspaceï¿½s control.
+ï¿½    To receive a credit, you must log a request via ticket in the Rackspace cloud control panel within thirty (30) days following the end of the downtime and provide logs evidencing Rackspaceï¿½s failure to meet the SLA. You must show that your use of your Cluster was adversely affected in some way as a result of the downtime to be eligible for the credit.
+ï¿½    Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your Cluster fee for that billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods.
+
 --------------------------------------------------------------
 http://www.rackspace.com/information/legal/cloud/sla#cloud_block_storage_sla
 
@@ -1095,21 +1093,21 @@ Service Level Agreement
 
 Guarantee
 
-We guarantee that Cloud Block Storage service will be available 99.9% of the time in a given billing cycle. If we fail to meet this guarantee, you will be eligible to receive a credit to your account. Credits apply to affected volumes only. 
+We guarantee that Cloud Block Storage service will be available 99.9% of the time in a given billing cycle. If we fail to meet this guarantee, you will be eligible to receive a credit to your account. Credits apply to affected volumes only.
 
- 
+
 
 Unavailability
 
 Unavailability means: (i) The Rackspace Cloud Block Storage service returns a server error response to a valid user request during two or more consecutive 90 second intervals, or (ii) data stored on Cloud Block Storage volumes becomes inaccessible to Next Generation Cloud Servers. Unavailability due to scheduled maintenance is excluded from these conditions and does not contribute towards unavailability calculations.
 
- 
+
 
 Credits
 
 If we fail to meet a guarantee stated above, you will be eligible for a credit. Credits will be calculated as a percentage of your last billed fee for the effected Cloud Block Storage service, or at your option, your fee for the current billing cycle.  Credits will be applied at the end of your current billing cycle.  Credits will be based on the duration of the unavailability that exceeds the 99.9% threshold as follows:
 
- 
+
 
 Total Cloud Block Storage Available Time (for given billing cycle)  Credit Amount
 
@@ -1129,19 +1127,19 @@ Total Cloud Block Storage Available Time (for given billing cycle)  Credit Amoun
 
 Less than 96.5%                                                       100%
 
- 
+
 
 Definitions: For purposes of this Service Level Guarantee:
 
 "Cloud Block Storage service" means the Cloud Block Storage Authentication Service, Storage System, and REST web service interfaces, and related back-end systems;
 
-"storage volume" or “volume” means a logically identified container or dataspace provisioned within the Cloud Block Storage service for your use. 
+"storage volume" or ï¿½volumeï¿½ means a logically identified container or dataspace provisioned within the Cloud Block Storage service for your use.
 
 "scheduled maintenance" means maintenance that is announced at least 72 hours in advance, and that does not exceed sixty minutes in any calendar month.
 
 "server error response" means an HTTP return status code between 500-599;
 
- 
+
 
 Limitations
 
@@ -1151,26 +1149,26 @@ To receive a credit, you must contact your Rackspace Cloud account team within t
 
 This Service Level Guarantee is your sole and exclusive remedy for Cloud Block Storage unavailability.
 
-Notwithstanding anything in this Service Level Guarantee to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your fee for that billing period. Credits will not be carried forward to future billing periods. 
+Notwithstanding anything in this Service Level Guarantee to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your fee for that billing period. Credits will not be carried forward to future billing periods.
 
 This Service Level Guarantee is part of your Agreement with Rackspace, along with the Cloud Terms of Service and the AUP, and is subject to the terms and conditions stated in those documents.
 
 ----------------------------------------------------------------
 http://www.rackspace.com/information/legal/cloud/sla#cloud_databases_sla
 Cloud Databases SLA
- 
+
 
 Cloud Database Instances
 
 We guarantee that your Cloud Database Instance(s) will be available 99.9% of the time in any given monthly billing period, excluding Scheduled Maintenance. This guarantee includes unavailability due to failures with the Datacenter Infrastructure (including power and network), but excludes downtime due to either Scheduled Maintenance or Instance Resize Migration (as described below).
 
- 
+
 
 Instance Resize Migration
 
 If you request that we resize your Cloud Database Instance (such as by increasing or decreasing the amount of storage or compute resources dedicated to a given instance), the Cloud Database Instance may be unavailable during resizing as we re-provision the instance on appropriate host infrastructure. Because instance resize migration times may vary substantially based on existing image size, the availability of additional resources on the existing host, and the target instance size, Rackspace makes no guarantee about instance resize migration times and no credit is available for downtime due to a request that Rackspace resize a given Cloud Database Instance.
 
- 
+
 
 Credits
 
@@ -1188,7 +1186,7 @@ Definitions: For purposes of this Service Level Agreement:
 
 "Scheduled Maintenance" means maintenance that is announced at least ten business days in advance, and that does not exceed sixty minutes in any calendar month.
 
- 
+
 
 Limitations
 
@@ -1202,7 +1200,7 @@ Notwithstanding anything in this Service Level Agreement to the contrary, the ma
 -------------------------------------------------------------------------------
 http://www.rackspace.com/information/legal/cloud/sla#cloud_dba_monitoring_sla
 Cloud DBA Monitoring SLA
-Cloud Database Administration (‘DBA’) Monitoring SLA
+Cloud Database Administration (ï¿½DBAï¿½) Monitoring SLA
 
  Service Level Agreement & Terms
 
@@ -1220,18 +1218,18 @@ Definitions
 
 For the purposes of the SLA outlined above:
 
-A “Monitoring Alert” is when a device being monitored violates a predefined error condition, and some form of notification ("Alert") is generated.
-“Monitoring Services” means the infrastructure, software, and services responsible for monitoring devices and generating/tracking "Monitoring Alerts."
-“DB Server” means the Rackspace supplied and configured software and hardware for which DBA Services have been purchased, but specifically excluding customer provided software and any hardware or service which has been labeled “colocated”, “non-standard”, “unsupported” or with like designation.
+A ï¿½Monitoring Alertï¿½ is when a device being monitored violates a predefined error condition, and some form of notification ("Alert") is generated.
+ï¿½Monitoring Servicesï¿½ means the infrastructure, software, and services responsible for monitoring devices and generating/tracking "Monitoring Alerts."
+ï¿½DB Serverï¿½ means the Rackspace supplied and configured software and hardware for which DBA Services have been purchased, but specifically excluding customer provided software and any hardware or service which has been labeled ï¿½colocatedï¿½, ï¿½non-standardï¿½, ï¿½unsupportedï¿½ or with like designation.
 "Scheduled Maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least ten business days in advance.
-“Emergency Maintenance” means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability.
+ï¿½Emergency Maintenanceï¿½ means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability.
 Limitations
 
 The credits stated in this DBA Monitoring SLA shall not apply to the extent that you make changes in your Services or Rackspace makes changes in your Services at your request that prevents Rackspace from providing the DBA Services or meeting the service level guaranties stated herein.
 
 You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach. You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services. You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus attacks, hacking attempts, or any other circumstances that are not within our control.
 
-In order to ensure that Rackspace is able to provide you with the DBA Services, Rackspace support teams may occasionally provide you with recommended configuration changes or upgrades (the “Configuration Guidance”).  You shall not be entitled to a credit if the event giving rise to the credit would not have occurred but for your failure to implement the Configuration Guidance or otherwise address the issue in a manner which permits Rackspace to provide the DBA Services within 5 days of your receipt of the Configuration Guidance, or such other time frame as stated in the Configuration Guidance. 
+In order to ensure that Rackspace is able to provide you with the DBA Services, Rackspace support teams may occasionally provide you with recommended configuration changes or upgrades (the ï¿½Configuration Guidanceï¿½).  You shall not be entitled to a credit if the event giving rise to the credit would not have occurred but for your failure to implement the Configuration Guidance or otherwise address the issue in a manner which permits Rackspace to provide the DBA Services within 5 days of your receipt of the Configuration Guidance, or such other time frame as stated in the Configuration Guidance.
 
 To receive a credit, you must request a credit via your Rackspace Cloud control panel within thirty (30) days following the end of the downtime. You must show that your use of the Rackspace Cloud Load Balancer was adversely affected in some way as a result of the downtime to be eligible for the credit.
 
@@ -1248,23 +1246,23 @@ http://www.rackspace.com/information/legal/cloud/sla#cloud_files_sla
 Cloud Files SLA
 Guaranty
 
-We guaranty that Cloud Files™ service will be available 99.9% of the time in a given billing cycle. If we fail to meet this guaranty, you will be eligible to receive a credit to your account. The credit will be calculated as a percentage of your last billed fee for the Cloud Files service, or at your option, your Cloud Files fee for the current billing cycle (to be applied at the end of the billing cycle). Credits will be based on the duration of the unavailability that exceeds the 99.9% threshold as defined below.
+We guaranty that Cloud Filesï¿½ service will be available 99.9% of the time in a given billing cycle. If we fail to meet this guaranty, you will be eligible to receive a credit to your account. The credit will be calculated as a percentage of your last billed fee for the Cloud Files service, or at your option, your Cloud Files fee for the current billing cycle (to be applied at the end of the billing cycle). Credits will be based on the duration of the unavailability that exceeds the 99.9% threshold as defined below.
 
- 
+
 
 Unavailability
 
-Unavailability means: (i) The Rackspace Cloud network is down, or (ii) the Cloud Files™ service returns a server error response to a valid user request during two or more consecutive 90 second intervals, or (iii) the Content Delivery Network fails to deliver an average download time for a 1-byte reference document of 0.3 seconds or less, as measured by Rackspace's third party measuring service. 
+Unavailability means: (i) The Rackspace Cloud network is down, or (ii) the Cloud Filesï¿½ service returns a server error response to a valid user request during two or more consecutive 90 second intervals, or (iii) the Content Delivery Network fails to deliver an average download time for a 1-byte reference document of 0.3 seconds or less, as measured by Rackspace's third party measuring service.
 
 Unavailability due to scheduled maintenance is excluded from these conditions and does not contribute towards unavailability calculations.
 
- 
+
 
 Credits
 
-Account credits are calculated as a percentage of your Cloud Files™ service fee, as follows:
+Account credits are calculated as a percentage of your Cloud Filesï¿½ service fee, as follows:
 
-Total Cloud Files™ Available Time (for given billing cycle)
+Total Cloud Filesï¿½ Available Time (for given billing cycle)
 
                                                                                Credit Amount
 
@@ -1300,45 +1298,45 @@ Less than 96.5%
 
                                                                                     100%
 
-For example, if your billing cycle is 30 days, and Cloud Files™ is unavailable for 47 minutes during that billing cycle (.11% of the minutes in the billing cycle) then you are eligible for a 10% credit.
+For example, if your billing cycle is 30 days, and Cloud Filesï¿½ is unavailable for 47 minutes during that billing cycle (.11% of the minutes in the billing cycle) then you are eligible for a 10% credit.
 
- 
+
 
 Definitions: For purposes of this Service Level Agreement:
 
- 
 
-"Cloud Files™ service" means the Cloud Files™ Authentication Service, Storage System, and CDN-Management ReST web service interfaces, and related back-end systems;
 
- 
+"Cloud Filesï¿½ service" means the Cloud Filesï¿½ Authentication Service, Storage System, and CDN-Management ReST web service interfaces, and related back-end systems;
+
+
 
 "Content Delivery Network" means the global network of servers designed to expedite delivery of web content by serving the content from a location in geographic proximity to the user;
 
- 
+
 
 "scheduled maintenance" means maintenance that is announced at least ten business days in advance, and that does not exceed sixty minutes in any calendar month;
 
- 
+
 
 "The Rackspace Cloud network" means the portion of the Rackspace Cloud network that extends from the outbound port on The Rackspace Cloud edge device to the outbound port on the datacenter border router;
 
- 
+
 
 "server error response" means an HTTP return status code between 500-599;
 
- 
+
 
 Limitations
 
- 
+
 
 You are not entitled to a credit if you are in breach of your services agreement with  Rackspace (including your payment obligations to us) until you have cured the breach. You are not entitled to a credit if the unavailability would not have occurred but for your breach of your agreement with Rackspace  or your misuse of the Services. You are not entitled to a credit for unavailability or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within our control.
 
- 
+
 
 To receive a credit, you must request a credit via your Rackspace Cloud control panel  within thirty (30) days following the end of the unavailability. You must show that your use (or end users' use) of Services was adversely affected in some way as a result of the unavailability to be eligible for the credit.
 
- 
+
 
 Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your Cloud Files fee for that billing period. Credits that would be available but for this limitation will not be carried forward to future billing periods. This Service Level Agreement  is part of your Cloud Terms of Service.
 
@@ -1351,7 +1349,7 @@ We guaranty that the load balancing service will be available 99.99% of the time
 
 In the event of a Load Balancer failure, the system is to failover to a partner device. In this event, the failover is to result in less than 30 seconds of disruption.
 
- 
+
 
 Credits
 
@@ -1367,7 +1365,7 @@ Definitions: For purposes of this Service Level Agreement:
 
 "Scheduled Maintenance" means maintenance that is announced at least ten business days in advance, and that does not exceed sixty minutes in any calendar month.
 
- 
+
 
 Limitations
 
@@ -1396,7 +1394,7 @@ Restrictions on Deep Server Monitoring Use. You may not configure Checks against
 
 Service Level Agreement.  Cloud Monitoring Service will be available 99.9% of the time in any given monthly billing period, excluding Scheduled Maintenance. For the purposes of this guarantee, the Rackspace Cloud Monitoring Service is considered available if it performs properly configured Checks and notifies you of any failed Check within 30 minutes of performing the Check.
 
-Credits.  If we fail to meet a guarantee stated above, you will be eligible for a one-time credit of ten dollars for each month in which the failure occurred. 
+Credits.  If we fail to meet a guarantee stated above, you will be eligible for a one-time credit of ten dollars for each month in which the failure occurred.
 
 "Scheduled Maintenance" means maintenance that is announced at least ten business days in advance, and that does not exceed sixty minutes in any calendar month.
 
@@ -1404,11 +1402,11 @@ Fees.  Although you may utilize and configure Rackspace Cloud Monitoring Checks 
 
 Restrictions on Use.  You may not configure Checks against IP addresses that you do not own, and while you may configure Checks against dynamic IP addresses you must disable or modify the applicable Checks when the target IP is re-assigned (for this reason we suggest that you point any Check running against a dynamic IP target to a DNS entry that is updated when the target IP changes).
 
- 
+
 
 Limitations
 
-The Service Level Agreement only applies if you are using the most current version of the Rackspace monitoring agent. You will not be entitled to credits related to your misconfiguration of the cloud system or monitoring agent or for any failures relating to the networking issues between you and the Rackspace Cloud monitoring systems.You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach. You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Cloud or your misuse or administration of the Rackspace Cloud Monitoring Service. 
+The Service Level Agreement only applies if you are using the most current version of the Rackspace monitoring agent. You will not be entitled to credits related to your misconfiguration of the cloud system or monitoring agent or for any failures relating to the networking issues between you and the Rackspace Cloud monitoring systems.You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach. You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Cloud or your misuse or administration of the Rackspace Cloud Monitoring Service.
 
 To receive a credit, you must request a credit via your Rackspace Cloud control panel  within thirty (30) days following the failure of a Check.
 
@@ -1422,29 +1420,29 @@ Network
 
 We guaranty that our data center network will be available 100% of the time in any given monthly billing period, excluding scheduled maintenance.
 
- 
+
 
 Data Center Infrastructure
 
-We guaranty that data center HVAC and power will be functioning 100% of the time in any given monthly billing period, excluding scheduled maintenance. Infrastructure downtime exists when Cloud Servers™ downtime occurs as a result of power or heat problems.
+We guaranty that data center HVAC and power will be functioning 100% of the time in any given monthly billing period, excluding scheduled maintenance. Infrastructure downtime exists when Cloud Serversï¿½ downtime occurs as a result of power or heat problems.
 
- 
+
 
 Cloud Server Hosts
 
 We guaranty the functioning of all cloud server hosts including compute, storage, and hypervisor. If a cloud server host fails, we guaranty that restoration or repair will be complete within one hour of problem identification.
 
- 
+
 
 Migration
 
 If a cloud server migration is required because of cloud server host degradation, we will notify you at least 24 hours in advance of beginning the migration, unless we determine in our reasonable judgment, that we must begin the migration sooner to protect your cloud server data. Either way, we guaranty that the migration will be complete within three hours of the time that we begin the migration.
 
- 
+
 
 Credits
 
-If we fail to meet a guaranty stated above, you will be eligible for a credit. Credits will be calculated as a percentage of the fees for those Cloud Servers™ adversely affected by the failure for the current monthly billing period during which the failure occurred (to be applied at the end of the billing cycle), as follows:
+If we fail to meet a guaranty stated above, you will be eligible for a credit. Credits will be calculated as a percentage of the fees for those Cloud Serversï¿½ adversely affected by the failure for the current monthly billing period during which the failure occurred (to be applied at the end of the billing cycle), as follows:
 
 Network: 5% of the cloud server fees for each 30 minutes of network downtime, up to 100% of the cloud server fees;
 
@@ -1458,7 +1456,7 @@ Definitions: For purposes of this Service Level Agreement:
 
 "cloud server" means your unique virtual machine instance;
 
-"cloud server fees" means the fees for your Cloud Servers™ for the monthly billing period in which the failure occurred and includes monthly virtual machine instance and bandwidth charges;
+"cloud server fees" means the fees for your Cloud Serversï¿½ for the monthly billing period in which the failure occurred and includes monthly virtual machine instance and bandwidth charges;
 
 "cloud server host" means the physical server which hosts your cloud server;
 
@@ -1468,15 +1466,15 @@ Definitions: For purposes of this Service Level Agreement:
 
 "scheduled maintenance" means maintenance that is announced at least ten business days in advance, and that does not exceed sixty minutes in any calendar month.
 
- 
+
 
 Limitations
 
 You are not entitled to a credit if you are in breach of your services agreement with  Rackspace (including your payment obligations to us) until you have cured the breach. You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace  or your misuse of the Services. You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within our control.
 
-To receive a credit, you must request a credit via your Rackspace Cloud control panel within thirty (30) days following the end of the downtime. You must show that your use of the Cloud Servers™ was adversely affected in some way as a result of the downtime to be eligible for the credit.
+To receive a credit, you must request a credit via your Rackspace Cloud control panel within thirty (30) days following the end of the downtime. You must show that your use of the Cloud Serversï¿½ was adversely affected in some way as a result of the downtime to be eligible for the credit.
 
-Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your cloud server fee for that billing period. Credits that would be available but for this limitation will not be carried forward to future billing periods. 
+Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your cloud server fee for that billing period. Credits that would be available but for this limitation will not be carried forward to future billing periods.
 
 This Service Level Agreement  is part of your Cloud Terms of Service.
 -------------------------------------------------------
@@ -1487,28 +1485,28 @@ Rackspace Cloud Servers (Next Gen) is comprised of two related subsystems, the c
 
 I. CONTROL PLANE
 
-The “control plane” is the Cloud Servers API (Application Programming Interface) used to create, manage, and delete cloud servers.
+The ï¿½control planeï¿½ is the Cloud Servers API (Application Programming Interface) used to create, manage, and delete cloud servers.
 
-We guarantee the Cloud Servers control plane will be available 99.9% of the time in any given monthly billing period. 
+We guarantee the Cloud Servers control plane will be available 99.9% of the time in any given monthly billing period.
 
-                            SLA Credit for Control Plane:     
+                            SLA Credit for Control Plane:
                             Monthly Availability        Credit Percentage*
-                            100% - 99.9%                               0%    
+                            100% - 99.9%                               0%
                             < 99.9% - 99.5%                          10%
                             < 99.5% - 99.0%                          20%
                             < 99.0%                                       30%
 
-“Monthly Availability” is calculated on a per customer, per region basis, for a given monthly billing period, as follows (represented as a percentage):
+ï¿½Monthly Availabilityï¿½ is calculated on a per customer, per region basis, for a given monthly billing period, as follows (represented as a percentage):
 
-                            1 – (Total API Errors)/(Total Valid API Requests) 
+                            1 ï¿½ (Total API Errors)/(Total Valid API Requests)
 
 * Credits will be calculated as a percentage of all cloud server fees in the affected region for the monthly billing period.
 
 
 
-II. DATA PLANE 
+II. DATA PLANE
 
-The “data plane” includes cloud servers created via the control plane plus supporting systems and services required for the proper functioning and availability of those cloud servers.  Customers manage and have full control over their cloud servers and Rackspace guarantees proper functioning of the following supporting systems and services:  
+The ï¿½data planeï¿½ includes cloud servers created via the control plane plus supporting systems and services required for the proper functioning and availability of those cloud servers.  Customers manage and have full control over their cloud servers and Rackspace guarantees proper functioning of the following supporting systems and services:
 
 Network
 We guarantee that our data center network will be available 100% of the time in any given monthly billing period, excluding scheduled or emergency maintenance.  Network downtime exists when a cloud server is not reachable as a result of a failure in the data center network.
@@ -1521,13 +1519,13 @@ We guarantee that data center HVAC and power will be functioning 100% of the tim
                SLA Credit for Data Center Infrastructure Downtime: 5% of the cloud server fees for each 30 minutes of data center infrastructure downtime (or portion thereof), up to 100% of the cloud server fees.**
 
 Cloud Server Hosts
-We guarantee the functioning of all cloud server hosts including the hypervisor.  If a cloud server host fails, we guarantee that restoration or repair will be complete within one hour.  
- 
+We guarantee the functioning of all cloud server hosts including the hypervisor.  If a cloud server host fails, we guarantee that restoration or repair will be complete within one hour.
+
               SLA Credit for Cloud Server Host Downtime: 5% of the cloud server fees for each additional hour of downtime (or portion thereof), after the first hour, up to 100% of the cloud server fees.**
 
 Migration
 If a cloud server migration is required because of cloud server host degradation, we will notify you at least 24 hours in advance of beginning the migration, unless we determine in our reasonable judgment that we must begin the migration sooner to protect your cloud server data.  Either way, we guarantee the migration will be complete within three hours of the time we begin the migration.
- 
+
              SLA Credit for Migration Downtime: 5% of the cloud server fees for each additional hour of downtime (or portion thereof), after the first three hours, up to 100% of the cloud server fees.**
 
 ** Credits will be calculated as a percentage of the fees for those cloud servers adversely affected by the failure for the monthly billing period during which the failure occurred.
@@ -1539,22 +1537,22 @@ III. DEFINITIONS AND LIMITATIONS
 Definitions
 For purposes of the Service Level Agreements outlined above:
 
-•    “API error” is defined as: (i) an HTTP 5xx server error response to a valid API request or  (ii) no response to a valid API request because the API is down.  Network errors or downtime outside of the Rackspace data center network do not constitute an API error;
-•    “valid API request” is defined as a well formed request that complies with the published API specification;
-•    "cloud server" means a unique virtual machine instance;
-•    "cloud server fees" means the fees for your cloud servers for the monthly billing period in which the failure occurred and includes hourly virtual machine usage and bandwidth charges;
-•    "cloud server host" means the physical server which hosts your cloud server;
-•    “region” means a particular physical location where the Cloud Servers service exists (e.g. Dallas, Chicago, London).  Cloud Servers control and data planes are independent per region and do not span regions;
-•    "data center network" means the portion of the Rackspace network extending from the network egress point of your cloud server to the outbound port of the data center border router;
-•    "power" excludes cloud server host power supplies which is covered as part of the cloud server hosts guarantee;
-•    "scheduled maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least ten business days in advance;
-•    “emergency maintenance” means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability
+ï¿½    ï¿½API errorï¿½ is defined as: (i) an HTTP 5xx server error response to a valid API request or  (ii) no response to a valid API request because the API is down.  Network errors or downtime outside of the Rackspace data center network do not constitute an API error;
+ï¿½    ï¿½valid API requestï¿½ is defined as a well formed request that complies with the published API specification;
+ï¿½    "cloud server" means a unique virtual machine instance;
+ï¿½    "cloud server fees" means the fees for your cloud servers for the monthly billing period in which the failure occurred and includes hourly virtual machine usage and bandwidth charges;
+ï¿½    "cloud server host" means the physical server which hosts your cloud server;
+ï¿½    ï¿½regionï¿½ means a particular physical location where the Cloud Servers service exists (e.g. Dallas, Chicago, London).  Cloud Servers control and data planes are independent per region and do not span regions;
+ï¿½    "data center network" means the portion of the Rackspace network extending from the network egress point of your cloud server to the outbound port of the data center border router;
+ï¿½    "power" excludes cloud server host power supplies which is covered as part of the cloud server hosts guarantee;
+ï¿½    "scheduled maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least ten business days in advance;
+ï¿½    ï¿½emergency maintenanceï¿½ means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability
 
 Limitations
-•    You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach.  You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services.  You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within our control.
-•    To receive a credit, you must log a request via ticket in the Rackspace cloud control panel within thirty (30) days following the end of the downtime and provide logs evidencing Rackspace’s failure to meet the SLA.  You must show that your use of Cloud Servers was adversely affected in some way as a result of the downtime to be eligible for the credit. 
-•    Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your cloud server fee for that billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods. 
-•    This Service Level Guarantee is your sole and exclusive remedy for Cloud Servers unavailability.  
+ï¿½    You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach.  You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services.  You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within our control.
+ï¿½    To receive a credit, you must log a request via ticket in the Rackspace cloud control panel within thirty (30) days following the end of the downtime and provide logs evidencing Rackspaceï¿½s failure to meet the SLA.  You must show that your use of Cloud Servers was adversely affected in some way as a result of the downtime to be eligible for the credit.
+ï¿½    Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your cloud server fee for that billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods.
+ï¿½    This Service Level Guarantee is your sole and exclusive remedy for Cloud Servers unavailability.
 
 
 
@@ -1565,11 +1563,11 @@ http://www.rackspace.com/information/legal/cloud/sla#cloud_sites_sla
 Cloud Sites SLA
 Our no-loophole, no-legalese SLA
 
-We'll credit your next invoice with the equivalent of 1 day's hosting fee for each 60 minutes of unscheduled downtime (up to 100% of your Cloud Sites fee for the month in which the outage occurs).  It doesn't matter why—any time your websites, email or databases are offline or not functioning as a result of a failure in our systems, data center, or network is considered downtime, and we begin counting from the minute you open a support ticket via the Cloud control panel.
+We'll credit your next invoice with the equivalent of 1 day's hosting fee for each 60 minutes of unscheduled downtime (up to 100% of your Cloud Sites fee for the month in which the outage occurs).  It doesn't matter whyï¿½any time your websites, email or databases are offline or not functioning as a result of a failure in our systems, data center, or network is considered downtime, and we begin counting from the minute you open a support ticket via the Cloud control panel.
 
-That's it—we've designed our SLA to be ultra-simple. Please note that the Cloud Sites™ SLA does not cover coding or configuration errors on your part, and like all hosts, we may schedule occasional maintenance windows that will affect the availability of some services. We'll post notification of scheduled maintenance before it happens, and since we operate clusters of servers, maintenance that causes downtime should be rare.
+That's itï¿½we've designed our SLA to be ultra-simple. Please note that the Cloud Sitesï¿½ SLA does not cover coding or configuration errors on your part, and like all hosts, we may schedule occasional maintenance windows that will affect the availability of some services. We'll post notification of scheduled maintenance before it happens, and since we operate clusters of servers, maintenance that causes downtime should be rare.
 
- 
+
 
 Limitations
 
@@ -1584,37 +1582,37 @@ This Service Level Agreement is part of your Cloud Terms of Service.
 
 http://www.rackspace.com/information/legal/cloud/sla#cloud_support_sla
 Cloud Support SLA
-This Support SLA (the “SLA”) is part of the Agreement for Managed Infrastructure and Managed Operations customers only and is subject to the terms of the Agreement.
+This Support SLA (the ï¿½SLAï¿½) is part of the Agreement for Managed Infrastructure and Managed Operations customers only and is subject to the terms of the Agreement.
 
 1. Definitions:  For the purposes of this SLA:
 
-“Affected Components” of your Hosted System means the Service(s) that have been affected by the failure to meet this SLA and include the initial Service that failed plus any Service(s) that become inaccessible or unable to perform their intended purpose under the Agreement as a result of the initial Service’s failure.     
+ï¿½Affected Componentsï¿½ of your Hosted System means the Service(s) that have been affected by the failure to meet this SLA and include the initial Service that failed plus any Service(s) that become inaccessible or unable to perform their intended purpose under the Agreement as a result of the initial Serviceï¿½s failure.
 
-“Monitoring” means Rackspace Cloud Monitoring Service found here: http://www.rackspace.com/cloud/monitoring/.
+ï¿½Monitoringï¿½ means Rackspace Cloud Monitoring Service found here: http://www.rackspace.com/cloud/monitoring/.
 
-“Unavailability” means that your Services have failed to respond to the Monitoring and that the Services are unable to send and receive information for the purpose in which they have been designed.
+ï¿½Unavailabilityï¿½ means that your Services have failed to respond to the Monitoring and that the Services are unable to send and receive information for the purpose in which they have been designed.
 
 Capitalized terms not defined in this SLA shall have the meaning ascribed to them elsewhere in the Agreement.
 
 2. Support SLA
 
-In the event that Rackspace’s Support activities for your Services result in unplanned Unavailability, you are entitled to a credit of 5% of the fees for the Affected Components for every half hour (or part thereof) of unplanned Unavailability, up to a maximum of 100% of the fees for such Affected Components in the monthly billing period.
+In the event that Rackspaceï¿½s Support activities for your Services result in unplanned Unavailability, you are entitled to a credit of 5% of the fees for the Affected Components for every half hour (or part thereof) of unplanned Unavailability, up to a maximum of 100% of the fees for such Affected Components in the monthly billing period.
 
 3. Limitations and Exclusions.
 
 3.1 This SLA shall not apply in the event that (i) you cause or request any change that results in Unavailability or interferes with our ability to provide the Services; (ii) Unavailability occurs due to external factors or circumstances outside of our control, including denial of service attacks, virus attacks, hacking attempts and spikes in network traffic or application utilization; (iii) Unavailability occurs due to deficiencies, bugs or errors in your application, application code, data structures, system software, operating system; or any vendor supplied patches; (iv) Unavailability occurs as a result of any unsupported third party products or third party services (or their interaction with the Services); or (v) we take an action which we reasonably believe is necessary to protect you, the Rackspace network or our other customers that results in Unavailability.
 
-3.2 This SLA shall not apply in the event that you fail to implement appropriate Monitoring for your Services or, disable, block, remove, or otherwise interfere with the Monitoring for the Services. 
+3.2 This SLA shall not apply in the event that you fail to implement appropriate Monitoring for your Services or, disable, block, remove, or otherwise interfere with the Monitoring for the Services.
 
-3.3 You are not entitled to a credit for Unavailability during Maintenance.  “Maintenance” means either:
+3.3 You are not entitled to a credit for Unavailability during Maintenance.  ï¿½Maintenanceï¿½ means either:
 
-• Scheduled Maintenance (e.g. repairs, modifications, or upgrades) that is announced at least ten (10) Business Days in advance; 
+ï¿½ Scheduled Maintenance (e.g. repairs, modifications, or upgrades) that is announced at least ten (10) Business Days in advance;
 
-• Scheduled customer maintenance of your configuration that you request and that we schedule with you in advance (either on a case by case basis, or based on standing instructions), such as hardware or software upgrades; or
+ï¿½ Scheduled customer maintenance of your configuration that you request and that we schedule with you in advance (either on a case by case basis, or based on standing instructions), such as hardware or software upgrades; or
 
-• Emergency Maintenance (e.g. critical unforeseen repairs, modifications, or upgrades) needed to ensure security or reliability.
+ï¿½ Emergency Maintenance (e.g. critical unforeseen repairs, modifications, or upgrades) needed to ensure security or reliability.
 
-3.4 You are not entitled to a credit if you are in breach of the Agreement (including your payment obligations to us) at the time of the occurrence of the event giving rise to the credit until you have cured the breach.  You are not entitled to a credit if the event giving rise to the credit would not have occurred but for your breach of the Agreement or your misuse of Rackspace’s cloud system.  
+3.4 You are not entitled to a credit if you are in breach of the Agreement (including your payment obligations to us) at the time of the occurrence of the event giving rise to the credit until you have cured the breach.  You are not entitled to a credit if the event giving rise to the credit would not have occurred but for your breach of the Agreement or your misuse of Rackspaceï¿½s cloud system.
 
 4 Credits
 
@@ -1622,13 +1620,13 @@ In the event that Rackspace’s Support activities for your Services result in unp
 
 4.2 If the event for which a credit may be payable under this SLA, is an event which would also be eligible for a credit under another SLA or is an event contemplated by another SLA, you shall not be eligible for a credit under this SLA.
 
-4.3 To receive a credit, you must either create a ticket in the Rackspace portal or call Rackspace support to open one on your behalf, in each case within thirty (30) days following the end of the Unavailability.  
+4.3 To receive a credit, you must either create a ticket in the Rackspace portal or call Rackspace support to open one on your behalf, in each case within thirty (30) days following the end of the Unavailability.
 
 4.4 For the purpose of determining whether a credit is due, time periods will be measured from the time you open a ticket or Rackspace opens one on your behalf, until the Monitoring reports that the Unavailability has been resolved.
 
 4.5 Any credits payable for a breach of this SLA are your sole and exclusive remedy for such breach.
 
-4.6 Notwithstanding anything in this SLA or the Cloud Terms of Service to the contrary, the maximum total aggregate credit for any billing period, including all SLAs and guarantees, shall not exceed 100% of your fees for the Services for the monthly billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods. 
+4.6 Notwithstanding anything in this SLA or the Cloud Terms of Service to the contrary, the maximum total aggregate credit for any billing period, including all SLAs and guarantees, shall not exceed 100% of your fees for the Services for the monthly billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods.
 
 4.7 This SLA is part of your Agreement with Rackspace, along with the Terms of Service and the AUP, and is subject to the terms and conditions stated in those documents.
 -----------------------------------------------
@@ -1638,17 +1636,17 @@ Rackspace Cloud Queues API SLA
 Rackspace Cloud Queues API Service Level Agreement
 
 Service Level Guarantee
-We guarantee that the Rackspace Cloud Queues API will be available 99.9% of the time in a given monthly billing period, excluding scheduled maintenance or emergency maintenance. If we fail to meet this guarantee, you will be eligible to receive a credit to your account as described below. 
+We guarantee that the Rackspace Cloud Queues API will be available 99.9% of the time in a given monthly billing period, excluding scheduled maintenance or emergency maintenance. If we fail to meet this guarantee, you will be eligible to receive a credit to your account as described below.
 
                             Monthly Availability        Credit Percentage*
-                            100% - 99.9%                               0%    
+                            100% - 99.9%                               0%
                             < 99.9% - 99.5%                          10%
                             < 99.5% - 99.0%                          20%
                             < 99.0%                                       30%
 
 
-“Monthly Availability” is calculated on a per customer, per region basis, for a given monthly billing period, as follows (represented as a percentage):
-                            1 – (Total API Errors)/(Total Valid API Requests) 
+ï¿½Monthly Availabilityï¿½ is calculated on a per customer, per region basis, for a given monthly billing period, as follows (represented as a percentage):
+                            1 ï¿½ (Total API Errors)/(Total Valid API Requests)
 
 * Credits will be calculated as a percentage of all Rackspace Cloud Queues fees in the affected region for the monthly billing period.
 
@@ -1658,23 +1656,23 @@ DEFINITIONS AND LIMITATIONS
 Definitions
 For purposes of the Service Level Agreement outlined above:
 
-•    “API error” is defined as: (i) an HTTP 5xx server error response to a valid API request or  (ii) no response to a valid API request because the API is down.  Network errors or       downtime outside of the Rackspace data center network do not constitute an API error;
+ï¿½    ï¿½API errorï¿½ is defined as: (i) an HTTP 5xx server error response to a valid API request or  (ii) no response to a valid API request because the API is down.  Network errors or       downtime outside of the Rackspace data center network do not constitute an API error;
 
-•    “emergency maintenance” means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability;
+ï¿½    ï¿½emergency maintenanceï¿½ means critical unforeseen maintenance (e.g. repairs, modifications, or upgrades) needed to ensure security or reliability;
 
-•    "Rackspace Cloud Queues fees" means the fees for your Rackspace Cloud Queues service for the monthly billing period in which the failure occurred, including  bandwidth charges;
+ï¿½    "Rackspace Cloud Queues fees" means the fees for your Rackspace Cloud Queues service for the monthly billing period in which the failure occurred, including  bandwidth charges;
 
-•    “region” means a particular physical location where Rackspace Cloud Queues Services exists (e.g. Dallas, Chicago, London).  Rackspace Cloud Queues control and data planes are independent per region and do not span regions;
+ï¿½    ï¿½regionï¿½ means a particular physical location where Rackspace Cloud Queues Services exists (e.g. Dallas, Chicago, London).  Rackspace Cloud Queues control and data planes are independent per region and do not span regions;
 
-•    "scheduled maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least seventy-two hours in advance;
+ï¿½    "scheduled maintenance" means maintenance (e.g. repairs, modifications, or upgrades) that is announced at least seventy-two hours in advance;
 
-•    “valid API request” is defined as a well formed request that complies with the published API specification.
+ï¿½    ï¿½valid API requestï¿½ is defined as a well formed request that complies with the published API specification.
 
 Limitations
-•    You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach.  You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services.  You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within our control.
-•    To receive a credit, you must log a request via ticket in the Rackspace cloud control panel within thirty (30) days following the end of the period of unavailability and provide logs evidencing Rackspace’s failure to meet the SLA.  You must show that your use of Rackspace Cloud Queues was adversely affected in some way as a result of the downtime to be eligible for the credit. If your credit request is approved, the credit will be applied during the next billing cycle after your request is approved.
-•    Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your Rackspace Cloud Queues fee for that billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods. 
-•    This Service Level Guarantee is your sole and exclusive remedy for Rackspace Cloud Queues unavailability.  
+ï¿½    You are not entitled to a credit if you are in breach of your services agreement with Rackspace (including your payment obligations to us) until you have cured the breach.  You are not entitled to a credit if downtime would not have occurred but for your breach of your agreement with Rackspace or your misuse of the Services.  You are not entitled to a credit for downtime or outages resulting from denial of service attacks, virus activity, hacking attempts, or any other circumstances that are not within our control.
+ï¿½    To receive a credit, you must log a request via ticket in the Rackspace cloud control panel within thirty (30) days following the end of the period of unavailability and provide logs evidencing Rackspaceï¿½s failure to meet the SLA.  You must show that your use of Rackspace Cloud Queues was adversely affected in some way as a result of the downtime to be eligible for the credit. If your credit request is approved, the credit will be applied during the next billing cycle after your request is approved.
+ï¿½    Notwithstanding anything in this Service Level Agreement to the contrary, the maximum total credit for the monthly billing period, including all guaranties, shall not exceed 100% of your Rackspace Cloud Queues fee for that billing period.  Credits that would be available but for this limitation will not be carried forward to future billing periods.
+ï¿½    This Service Level Guarantee is your sole and exclusive remedy for Rackspace Cloud Queues unavailability.
 
 This Service Level Agreement is part of your Cloud Terms of Service.
 --------------------------------------------------------
@@ -1685,58 +1683,58 @@ Service agreement
 
 Master services agreement
 
-NOTE: THIS MASTER SERVICES AGREEMENT WILL ONLY APPLY TO THE EXTENT THAT NO BINDING AGREEMENT, WRITTEN OR ELECTRONIC, (THE “OTHER AGREEMENT”) IS ALREADY IN PLACE BETWEEN CUSTOMER (DEFINED BELOW) AND APPFOG, INC. PERTAINING TO THE PRODUCTs AND/OR SERVICES TO WHICH THIS AGREEMENT APPLIES. TO THE EXTENT THAT ANY OTHER AGREEMENT IS IN EFFECT, THEN SUCH OTHER AGREEMENT WILL GOVERN CUSTOMER’S USE OF THE HOSTED SERVICE (AS DEFINED BELOW) AND THIS AGREEMENT WILL NOT APPLY EVEN IF YOU ARE REQUIRED TO CLICK THE BOX AFFIRMING YOUR CONSENT TO THE TERMS OF THIS AGREEMENT. BY COMPLETING THE ONLINE REGISTRATION FORM AND CLICKING THE “I AGREE” BUTTON, YOU SUBMIT TO APPFOG, INC., A DELAWARE CORPORATION (“APPFOG”), AN OFFER TO OBTAIN THE RIGHT TO USE THE HOSTED SERVICE UNDER THE PROVISIONS OF THIS MASTER SERVICES AGREEMENT (THE “AGREEMENT”). BY CLICKING THE “I AGREE” BUTTON, YOU HEREBY AGREE THAT YOU HAVE THE REQUISITE AUTHORITY, POWER AND RIGHT TO FULLY BIND THE PERSON AND/OR ENTITIE(S) (COLLECTIVELY, THE “CUSTOMER”) WISHING TO USE THE HOSTED SERVICE LISTED ON THE ORDER CONFIRMATION PAGE, ORDER FORM, QUOTE AND/OR INVOICE (EACH AN “ORDER FORM”) WHICH WE PROVIDE TO CUSTOMER IN CONNECTION WITH THE PURCHASE OF LICENSES TO ACCESS AND USE THE HOSTED SERVICE OR RELATED PROFESSIONAL SERVICES. THE TERMS OF EACH ORDER FORM WILL SET FORTH THE SPECIFIC TERMS OF THE ORDER BUT ALL APPLICABLE TERMS AND CONDITIONS BELOW SHALL APPLY. IF YOU DO NOT HAVE THE AUTHORITY TO BIND THE CUSTOMER OR YOU OR THE CUSTOMER DO NOT AGREE TO ANY OF THE TERMS BELOW, APPFOG IS UNWILLING TO PROVIDE THE HOSTED SERVICE TO CUSTOMER, AND YOU SHOULD NOT CLICK TO ACCEPT THE TERMS OF THIS AGREEMENT AND YOU SHOULD DISCONTINUE THE ORDER, AND/OR REGISTRATION PROCESS.
+NOTE: THIS MASTER SERVICES AGREEMENT WILL ONLY APPLY TO THE EXTENT THAT NO BINDING AGREEMENT, WRITTEN OR ELECTRONIC, (THE ï¿½OTHER AGREEMENTï¿½) IS ALREADY IN PLACE BETWEEN CUSTOMER (DEFINED BELOW) AND APPFOG, INC. PERTAINING TO THE PRODUCTs AND/OR SERVICES TO WHICH THIS AGREEMENT APPLIES. TO THE EXTENT THAT ANY OTHER AGREEMENT IS IN EFFECT, THEN SUCH OTHER AGREEMENT WILL GOVERN CUSTOMERï¿½S USE OF THE HOSTED SERVICE (AS DEFINED BELOW) AND THIS AGREEMENT WILL NOT APPLY EVEN IF YOU ARE REQUIRED TO CLICK THE BOX AFFIRMING YOUR CONSENT TO THE TERMS OF THIS AGREEMENT. BY COMPLETING THE ONLINE REGISTRATION FORM AND CLICKING THE ï¿½I AGREEï¿½ BUTTON, YOU SUBMIT TO APPFOG, INC., A DELAWARE CORPORATION (ï¿½APPFOGï¿½), AN OFFER TO OBTAIN THE RIGHT TO USE THE HOSTED SERVICE UNDER THE PROVISIONS OF THIS MASTER SERVICES AGREEMENT (THE ï¿½AGREEMENTï¿½). BY CLICKING THE ï¿½I AGREEï¿½ BUTTON, YOU HEREBY AGREE THAT YOU HAVE THE REQUISITE AUTHORITY, POWER AND RIGHT TO FULLY BIND THE PERSON AND/OR ENTITIE(S) (COLLECTIVELY, THE ï¿½CUSTOMERï¿½) WISHING TO USE THE HOSTED SERVICE LISTED ON THE ORDER CONFIRMATION PAGE, ORDER FORM, QUOTE AND/OR INVOICE (EACH AN ï¿½ORDER FORMï¿½) WHICH WE PROVIDE TO CUSTOMER IN CONNECTION WITH THE PURCHASE OF LICENSES TO ACCESS AND USE THE HOSTED SERVICE OR RELATED PROFESSIONAL SERVICES. THE TERMS OF EACH ORDER FORM WILL SET FORTH THE SPECIFIC TERMS OF THE ORDER BUT ALL APPLICABLE TERMS AND CONDITIONS BELOW SHALL APPLY. IF YOU DO NOT HAVE THE AUTHORITY TO BIND THE CUSTOMER OR YOU OR THE CUSTOMER DO NOT AGREE TO ANY OF THE TERMS BELOW, APPFOG IS UNWILLING TO PROVIDE THE HOSTED SERVICE TO CUSTOMER, AND YOU SHOULD NOT CLICK TO ACCEPT THE TERMS OF THIS AGREEMENT AND YOU SHOULD DISCONTINUE THE ORDER, AND/OR REGISTRATION PROCESS.
 1. Ordering
 
-The Order Form will set forth the (a) licenses to access and use AppFog’s proprietary platform for web application deployments (the “Solution”) to be hosted and made available by AppFog on a software-as-a-service basis (the “Hosted Service”) and/or (b) related integration, optimization or other professional services (collectively, “Professional Services”) that Customer is purchasing. Customer’s execution of an Order Form constitutes a binding commitment to purchase the items described on such Order Form under the terms and conditions of this Agreement.
+The Order Form will set forth the (a) licenses to access and use AppFogï¿½s proprietary platform for web application deployments (the ï¿½Solutionï¿½) to be hosted and made available by AppFog on a software-as-a-service basis (the ï¿½Hosted Serviceï¿½) and/or (b) related integration, optimization or other professional services (collectively, ï¿½Professional Servicesï¿½) that Customer is purchasing. Customerï¿½s execution of an Order Form constitutes a binding commitment to purchase the items described on such Order Form under the terms and conditions of this Agreement.
 2. Use Rights and Restrictions
 
 2.1 Administrative Rights.
 
-The Solution will include a restricted-access administrative interface component (“Administrative Interface”) to allow employees or specific independent contractors designated by Customer (“Administrative Users”) to access the configuration and settings components of the Solution to manage, configure and monitor the Solution for Customer’s benefit. Each Administrative User will be provided access to and use of the Administrative Interface (“Admin User Access”). Customer shall be responsible for ensuring the security and confidentiality of all Admin User Access. Customer acknowledges that it will be solely and fully responsible for all liabilities incurred through use (permitted or unpermitted) of any Admin User Access.
+The Solution will include a restricted-access administrative interface component (ï¿½Administrative Interfaceï¿½) to allow employees or specific independent contractors designated by Customer (ï¿½Administrative Usersï¿½) to access the configuration and settings components of the Solution to manage, configure and monitor the Solution for Customerï¿½s benefit. Each Administrative User will be provided access to and use of the Administrative Interface (ï¿½Admin User Accessï¿½). Customer shall be responsible for ensuring the security and confidentiality of all Admin User Access. Customer acknowledges that it will be solely and fully responsible for all liabilities incurred through use (permitted or unpermitted) of any Admin User Access.
 2.2	Access to Hosted Service.
 
 2.2.1 License Rights.
-During the applicable Subscription Term (as defined in Section 6.1 below) and subject to the terms and conditions of this Agreement, AppFog hereby grants to Customer a limited, worldwide, non-exclusive, non-transferable license to: (i) access and use the Solution via the Hosted Service solely for Customer’s internal business purposes related to Customer’s development and implementation of one or more web applications, including any source code contained therein, to be used with the within the Hosted Service (“Applications”) and made available to Customer’s users (“Users”) and (ii) use and make a reasonable number of copies of any descriptions, instructions, or other documentation made available by AppFog that describes functionality of the Solution, if any (collectively, the “Documentation”) solely for Customer’s internal business purposes. Customer is solely responsible for obtaining and maintaining any equipment or ancillary services needed to access or otherwise use the Hosted Service from applicable third parties, including, without limitation, modems, hardware, software, and long distance or local telephone service and any fees associated therewith.
+During the applicable Subscription Term (as defined in Section 6.1 below) and subject to the terms and conditions of this Agreement, AppFog hereby grants to Customer a limited, worldwide, non-exclusive, non-transferable license to: (i) access and use the Solution via the Hosted Service solely for Customerï¿½s internal business purposes related to Customerï¿½s development and implementation of one or more web applications, including any source code contained therein, to be used with the within the Hosted Service (ï¿½Applicationsï¿½) and made available to Customerï¿½s users (ï¿½Usersï¿½) and (ii) use and make a reasonable number of copies of any descriptions, instructions, or other documentation made available by AppFog that describes functionality of the Solution, if any (collectively, the ï¿½Documentationï¿½) solely for Customerï¿½s internal business purposes. Customer is solely responsible for obtaining and maintaining any equipment or ancillary services needed to access or otherwise use the Hosted Service from applicable third parties, including, without limitation, modems, hardware, software, and long distance or local telephone service and any fees associated therewith.
 2.2.2 Restrictions.
 Except as otherwise expressly permitted under this Agreement, Customer agrees not to: (a) reverse engineer or otherwise attempt to discover the source code of or trade secrets embodied in the Solution or any portion thereof; (b) distribute, transfer, grant sublicenses, or otherwise make available the Solution (or any portion thereof) to third parties, including, but not limited to, making such Solution available as an application service provider, service bureau, or rental source; (c) embed or incorporate in any manner the Solution (or any element thereof) into applications of Customer or third parties; (d) create modifications to or derivative works of the Solution; (e) reproduce the Solution or Documentation; (f) use the Solution in a manner not authorized under the Documentation or in violation of any applicable law, rule or regulation, including any export/import laws, or (g) in any way access, use, or copy any portion of the Solution code (including the logic and/or architecture thereof and any trade secrets included therein) to directly or indirectly develop, promote, distribute, sell or support any product or service that is competitive with the Solution.
 2.3 Applications and Content.
 
 2.3.1	Responsibility.
-Customer agrees that it is solely responsible for (and that AppFog has no responsibility to it or to any third party for) the Applications or any materials displayed or performed within the Application, including, but not limited to text, graphics, news articles, photographs, images, illustrations, audio clips and video clips that Customer or its Users creates, transmits or displays while using the Hosted Service (collectively, “Content”) and for the consequences of its actions (including any loss or damage which AppFog may suffer) by doing so. AppFog reserves the right (but shall have no obligation) to remove any or all Content from the Hosted Service. Customer agrees to immediately take down any Content that violates this Agreement, including pursuant to a takedown request from AppFog. In the event that Customer elects not to comply with a request from AppFog to take down certain Content, AppFog reserves the right to directly take down such Content or to disable Applications. Customer agrees that AppFog has no responsibility or liability for the deletion or failure to store any Content and other communications maintained or transmitted through use of the Hosted Service. Customer further acknowledges that it are solely responsible for securing and backing up your Applications and any Content.
+Customer agrees that it is solely responsible for (and that AppFog has no responsibility to it or to any third party for) the Applications or any materials displayed or performed within the Application, including, but not limited to text, graphics, news articles, photographs, images, illustrations, audio clips and video clips that Customer or its Users creates, transmits or displays while using the Hosted Service (collectively, ï¿½Contentï¿½) and for the consequences of its actions (including any loss or damage which AppFog may suffer) by doing so. AppFog reserves the right (but shall have no obligation) to remove any or all Content from the Hosted Service. Customer agrees to immediately take down any Content that violates this Agreement, including pursuant to a takedown request from AppFog. In the event that Customer elects not to comply with a request from AppFog to take down certain Content, AppFog reserves the right to directly take down such Content or to disable Applications. Customer agrees that AppFog has no responsibility or liability for the deletion or failure to store any Content and other communications maintained or transmitted through use of the Hosted Service. Customer further acknowledges that it are solely responsible for securing and backing up your Applications and any Content.
 2.3.2	Proprietary Rights.
 AppFog claims no ownership or control over any Content or Application. Customer retains copyright and any other rights it already holds in the Content and/or Application, and it is responsible for protecting those rights, as appropriate. By submitting, posting or displaying the Content on or through the Hosted Service, Customer grants AppFog a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, publicly perform, publicly display and distribute such Content for the sole purpose of enabling AppFog to provide Customer with the Hosted Service. Furthermore, by creating an Application through use of the Hosted Service, Customer grants AppFog a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, publicly perform, publicly display and distribute such Application for the sole purpose of enabling AppFog to provide Customer with the Hosted Service.
 2.3.3	Usage Limitations.
-Customer acknowledges and agrees that its use of the Solution may have certain “hard” and “soft” usage limits, as further set forth on the applicable Order Form. Customer may not exceed any hard usage limits and AppFog reserves the right to enforce soft usage limits in its sole discretion, which may result additional Fees or termination of the Agreement.
+Customer acknowledges and agrees that its use of the Solution may have certain ï¿½hardï¿½ and ï¿½softï¿½ usage limits, as further set forth on the applicable Order Form. Customer may not exceed any hard usage limits and AppFog reserves the right to enforce soft usage limits in its sole discretion, which may result additional Fees or termination of the Agreement.
 2.3.4	Third Party Services.
-Customer acknowledges and agrees that in connection with Customer’s use of the Solution and the Hosted Service, (i) AppFog may, in its sole discretion, allow Customer to access certain third party hosted services (each, a “Third Party Service”) for use in connection with the Solution, (ii) Customer may, in its sole discretion, enable or disable any specific Third Party Services for use by Users, and (iii) all Third Party Services shall be made available by applicable third parties solely in accordance with the terms of each such third party’s then-current end user license agreement (the “EULA”), which such EULA shall supersede any conflicting terms or conditions of this Agreement with respect to Customer’s and Users’ access to and use of the Third Party Services; provided, however, that AppFog reserves the right to discontinue any Third Party Services at any time in its sole discretion.
+Customer acknowledges and agrees that in connection with Customerï¿½s use of the Solution and the Hosted Service, (i) AppFog may, in its sole discretion, allow Customer to access certain third party hosted services (each, a ï¿½Third Party Serviceï¿½) for use in connection with the Solution, (ii) Customer may, in its sole discretion, enable or disable any specific Third Party Services for use by Users, and (iii) all Third Party Services shall be made available by applicable third parties solely in accordance with the terms of each such third partyï¿½s then-current end user license agreement (the ï¿½EULAï¿½), which such EULA shall supersede any conflicting terms or conditions of this Agreement with respect to Customerï¿½s and Usersï¿½ access to and use of the Third Party Services; provided, however, that AppFog reserves the right to discontinue any Third Party Services at any time in its sole discretion.
 3. Delivery of Hosted Service; Users
 
 3.1	Delivery; Service Levels.
 
-During the applicable Subscription Term, subject to Customer’s payment of all related Fees (as defined in Section 5.1 below), AppFog or its third party hosting provider will set-up and host the Solution via the Hosted Service, including obtaining and maintaining all computer hardware, software, communications systems, network and other infrastructure (“Hosting Infrastructure”) necessary to permit Customer to access and use the Solution in accordance with this Agreement. AppFog will manage and install all updates and upgrades that AppFog makes generally available to its customers for the Solution within the Hosting Infrastructure.
+During the applicable Subscription Term, subject to Customerï¿½s payment of all related Fees (as defined in Section 5.1 below), AppFog or its third party hosting provider will set-up and host the Solution via the Hosted Service, including obtaining and maintaining all computer hardware, software, communications systems, network and other infrastructure (ï¿½Hosting Infrastructureï¿½) necessary to permit Customer to access and use the Solution in accordance with this Agreement. AppFog will manage and install all updates and upgrades that AppFog makes generally available to its customers for the Solution within the Hosting Infrastructure.
 3.2 Users.
 
 3.2.1	Responsibility; Acceptable Use Policies.
-Customer: (a) is solely responsible for any and all personally identifiable User data (“User Data”) that may be collected or utilized by Customer through its use of the Hosted Service, including, without limitation, any User Data that may be processed and/or stored within any Application; (b) acknowledges that AppFog has no control over and will not monitor the content of the User Data; and (c) agrees that Customer will be responsible for (i) establishing and enforcing terms of use and privacy policies (“Customer Policies”) with Users that authorize Customer’s use of the Hosted Service as permitted under this Agreement and are in compliance with applicable law, including export regulation and data protection legislation, and (ii) obtaining all necessary consents of third parties to the collection, processing, and use of User Data. All access to the Hosted Service will be subject to the acceptable use policies required by AppFog’s third party hosting provider(s), which are found at http://aws.amazon.com/aup or as otherwise made available by AppFog (the “AUP”), and are incorporated herein by reference.
+Customer: (a) is solely responsible for any and all personally identifiable User data (ï¿½User Dataï¿½) that may be collected or utilized by Customer through its use of the Hosted Service, including, without limitation, any User Data that may be processed and/or stored within any Application; (b) acknowledges that AppFog has no control over and will not monitor the content of the User Data; and (c) agrees that Customer will be responsible for (i) establishing and enforcing terms of use and privacy policies (ï¿½Customer Policiesï¿½) with Users that authorize Customerï¿½s use of the Hosted Service as permitted under this Agreement and are in compliance with applicable law, including export regulation and data protection legislation, and (ii) obtaining all necessary consents of third parties to the collection, processing, and use of User Data. All access to the Hosted Service will be subject to the acceptable use policies required by AppFogï¿½s third party hosting provider(s), which are found at http://aws.amazon.com/aup or as otherwise made available by AppFog (the ï¿½AUPï¿½), and are incorporated herein by reference.
 3.2.2	Digital Millennium Copyright Act.
 Customer agrees to set up a process to respond to notices of alleged infringement that comply with the United States' Digital Millennium Copyright Act ("DMCA notices"). It is AppFog's policy to respond to DMCA notices or other applicable copyright laws and to terminate the accounts of repeat infringers. AppFog reserves the right to take down content in any Application or, if necessary, the Application itself upon receipt of a valid DMCA notice.
 4. Support Services; Professional Services
 
 4.1	Support Services.
-During the applicable Subscription Term, subject to Customer’s payment of all related Fees, AppFog shall, unless otherwise set forth on the applicable Order Form, provide technical support services to Customer regarding Customer’s operation and use of the Solution as set forth in the applicable Order Form. Customer will provide all support to Users.
+During the applicable Subscription Term, subject to Customerï¿½s payment of all related Fees, AppFog shall, unless otherwise set forth on the applicable Order Form, provide technical support services to Customer regarding Customerï¿½s operation and use of the Solution as set forth in the applicable Order Form. Customer will provide all support to Users.
 4.2	Professional Services.
-AppFog will provide all Professional Services and related deliverables (“Deliverables”) in accordance with the specifications and schedule, if any, set forth in each Order Form. If Customer notifies AppFog in writing within thirty (30) days after the Deliverables are made available to Customer that AppFog is not in compliance with the foregoing covenant with respect to such Deliverables, then AppFog will, as Customer’s sole and exclusive remedy and AppFog’s sole liability, use commercially reasonable efforts to cause the Deliverables to conform to such covenant at no additional cost to Customer. Customer acknowledges that the timely and successful performance of Professional Services and delivery of the Deliverables requires good faith cooperation by Customer. In the event that any failure by Customer to comply with the foregoing results in any delay or deficiency in the performance of the Professional Services by AppFog, AppFog shall not be deemed in breach of this Addendum for such delay and Customer shall be responsible for any costs reasonably incurred by AppFog in addressing and remedying such delay or deficiency. Unless expressly agreed otherwise in writing, all right, title and interest in and to all Deliverables (excluding any pre-existing intellectual property of AppFog (“Pre-Existing IP”) incorporated therein) shall be owned by Customer and AppFog hereby irrevocably assigns to Customer any and all ownership rights it may have in or to such Deliverables. Customer’s rights to Pre-Existing IP shall be the same as the rights granted to Customer under the Agreement with respect to the Solution.
+AppFog will provide all Professional Services and related deliverables (ï¿½Deliverablesï¿½) in accordance with the specifications and schedule, if any, set forth in each Order Form. If Customer notifies AppFog in writing within thirty (30) days after the Deliverables are made available to Customer that AppFog is not in compliance with the foregoing covenant with respect to such Deliverables, then AppFog will, as Customerï¿½s sole and exclusive remedy and AppFogï¿½s sole liability, use commercially reasonable efforts to cause the Deliverables to conform to such covenant at no additional cost to Customer. Customer acknowledges that the timely and successful performance of Professional Services and delivery of the Deliverables requires good faith cooperation by Customer. In the event that any failure by Customer to comply with the foregoing results in any delay or deficiency in the performance of the Professional Services by AppFog, AppFog shall not be deemed in breach of this Addendum for such delay and Customer shall be responsible for any costs reasonably incurred by AppFog in addressing and remedying such delay or deficiency. Unless expressly agreed otherwise in writing, all right, title and interest in and to all Deliverables (excluding any pre-existing intellectual property of AppFog (ï¿½Pre-Existing IPï¿½) incorporated therein) shall be owned by Customer and AppFog hereby irrevocably assigns to Customer any and all ownership rights it may have in or to such Deliverables. Customerï¿½s rights to Pre-Existing IP shall be the same as the rights granted to Customer under the Agreement with respect to the Solution.
 5. FEES.
 
 5.1	Fees.
-Subject to the terms and conditions below, all one-time and recurring fees for, as applicable, the Hosted Service and/or Professional Services (collectively, the “Fees”) will be set forth on the applicable Order Form.
+Subject to the terms and conditions below, all one-time and recurring fees for, as applicable, the Hosted Service and/or Professional Services (collectively, the ï¿½Feesï¿½) will be set forth on the applicable Order Form.
 5.2	Payment Terms.
-Unless otherwise agreed to in writing by the parties, Customer will pay to AppFog all undisputed Fees owed either, in AppFog’s sole discretion, (i) in advance by credit card or (ii) within thirty (30) days, or such other period as may be specified in the Order Form, after AppFog’s issuance of an invoice pertaining thereto. If applicable, payments will be sent to the address included on the invoice. All amounts payable shall be in the currency of the United States and specifically exclude (and Customer is responsible for) any and all applicable sales, use and other taxes, (other than taxes based on AppFog’s income). Unless otherwise set forth in a Statement of Work, each party is responsible for its own expenses under this Agreement. In cases where Customer fails to make payment under this Agreement, Customer shall bear default interest after the due date at the rate of 18% per year or the highest amount permitted by applicable law (whichever is less), which shall be calculated on a per diem basis of a year of 365 days.
+Unless otherwise agreed to in writing by the parties, Customer will pay to AppFog all undisputed Fees owed either, in AppFogï¿½s sole discretion, (i) in advance by credit card or (ii) within thirty (30) days, or such other period as may be specified in the Order Form, after AppFogï¿½s issuance of an invoice pertaining thereto. If applicable, payments will be sent to the address included on the invoice. All amounts payable shall be in the currency of the United States and specifically exclude (and Customer is responsible for) any and all applicable sales, use and other taxes, (other than taxes based on AppFogï¿½s income). Unless otherwise set forth in a Statement of Work, each party is responsible for its own expenses under this Agreement. In cases where Customer fails to make payment under this Agreement, Customer shall bear default interest after the due date at the rate of 18% per year or the highest amount permitted by applicable law (whichever is less), which shall be calculated on a per diem basis of a year of 365 days.
 6. Term and termination
 
 6.1	Term of Agreement.
-This Agreement shall continue in effect until terminated as set forth herein. The initial subscription term for each Hosted Service license purchased by Customer will be as set forth in the applicable Order Form and subject to any renewal as set forth in Section 6.2 below (collectively, the “Subscription Term”).
+This Agreement shall continue in effect until terminated as set forth herein. The initial subscription term for each Hosted Service license purchased by Customer will be as set forth in the applicable Order Form and subject to any renewal as set forth in Section 6.2 below (collectively, the ï¿½Subscription Termï¿½).
 6.2	Subscription Terms; Adjustment; Renewal.
 Each Subscription Term will commence on the date that both parties have entered the applicable Order Form under which Customer acquires such license, unless a later commencement date is expressly set forth on such Order Form, and will continue for the initial Subscription Term. Thereafter, each Solution license will automatically renew for a period equal to the initial Subscription Term and at the same Fees applicable during the immediately preceding term (based upon the latest applicable pricing tier) unless either party notifies the other at least thirty (30) days prior to the commencement of the renewal term that it does not intend to renew the Subscription Term upon the same terms.
 6.3	Termination.
@@ -1745,33 +1743,33 @@ This Agreement and/or any Order Form, if applicable, may be terminated (a) by ei
 Upon any termination of this Agreement or an Order Form, without prejudice to any other rights or remedies which the parties may have, (a) all rights licensed and obligations required thereunder shall immediately cease; provided that Sections 2.2.2,, 2.3, 5, 6.4, 7, 8, 9.3, 10, 12 and 13 shall survive termination, (b) Customer will promptly delete and destroy all copies of the Documentation in its possession or control, (c) Customer shall pay to AppFog any outstanding Fees that have accrued under the Agreement and/or Order Form prior to the date of termination and (d) AppFog shall deliver or otherwise make available to Customer the Application and all Content in its possession.
 7. Proprietary Rights
 
-As between the parties, AppFog will retain all ownership rights in and to the Solution, all updates and/or upgrades thereto, the Documentation, and other derivative works of the Solution and/or Documentation that are provided by AppFog, and all intellectual property rights incorporated into or related to the foregoing. The trademarks and service marks and other AppFog logos and product and service names are trademarks of AppFog (the “AppFog Marks”). Without AppFog’s prior written permission, Customer agrees not to display or use in any manner, the AppFog Marks. All rights not expressly licensed by AppFog under this Agreement are reserved. As between the parties hereto, Customer will retain all ownership rights in and to any Applications, all User Data and applicable Content.
+As between the parties, AppFog will retain all ownership rights in and to the Solution, all updates and/or upgrades thereto, the Documentation, and other derivative works of the Solution and/or Documentation that are provided by AppFog, and all intellectual property rights incorporated into or related to the foregoing. The trademarks and service marks and other AppFog logos and product and service names are trademarks of AppFog (the ï¿½AppFog Marksï¿½). Without AppFogï¿½s prior written permission, Customer agrees not to display or use in any manner, the AppFog Marks. All rights not expressly licensed by AppFog under this Agreement are reserved. As between the parties hereto, Customer will retain all ownership rights in and to any Applications, all User Data and applicable Content.
 8. Confidential Information
 
-“Confidential Information” means, with respect to a party (the “disclosing party”), information that pertains to such party’s business, including, without limitation, technical, marketing, financial, employee, planning, product roadmaps and documentation, performance results, pricing, and other confidential or proprietary information. Confidential Information will be designated and/or marked as confidential when disclosed, provided that any information that the party receiving such information (the “receiving party”) knew or reasonable should have known, under the circumstances, was considered confidential or proprietary by the disclosing party, will be considered Confidential Information of the disclosing party even if not designated or marked as such. The receiving party shall preserve the confidentiality of the disclosing party’s Confidential Information and treat such Confidential Information with at least the same degree of care that receiving party uses to protect its own Confidential Information, but not less than a reasonable standard of care. The receiving party will use the Confidential Information of the disclosing party only to exercise rights and perform obligations under this Agreement. Confidential Information of the disclosing party will be disclosed only to those employees and contractors of the receiving party with a need to know such information. The receiving party shall not be liable to the disclosing party for the release of Confidential Information if such information: (a) was known to the receiving party on or before Effective Date without restriction as to use or disclosure; (b) is released into the public domain through no fault of the receiving party; (c) was independently developed solely by the employees of the receiving party who have not had access to Confidential Information; or (d) is divulged pursuant to any legal proceeding or otherwise required by law, provided that, to the extent legally permissible, the receiving party will notify the disclosing party promptly of such required disclosure and reasonably assists the disclosing party in efforts to limit such required disclosure.
+ï¿½Confidential Informationï¿½ means, with respect to a party (the ï¿½disclosing partyï¿½), information that pertains to such partyï¿½s business, including, without limitation, technical, marketing, financial, employee, planning, product roadmaps and documentation, performance results, pricing, and other confidential or proprietary information. Confidential Information will be designated and/or marked as confidential when disclosed, provided that any information that the party receiving such information (the ï¿½receiving partyï¿½) knew or reasonable should have known, under the circumstances, was considered confidential or proprietary by the disclosing party, will be considered Confidential Information of the disclosing party even if not designated or marked as such. The receiving party shall preserve the confidentiality of the disclosing partyï¿½s Confidential Information and treat such Confidential Information with at least the same degree of care that receiving party uses to protect its own Confidential Information, but not less than a reasonable standard of care. The receiving party will use the Confidential Information of the disclosing party only to exercise rights and perform obligations under this Agreement. Confidential Information of the disclosing party will be disclosed only to those employees and contractors of the receiving party with a need to know such information. The receiving party shall not be liable to the disclosing party for the release of Confidential Information if such information: (a) was known to the receiving party on or before Effective Date without restriction as to use or disclosure; (b) is released into the public domain through no fault of the receiving party; (c) was independently developed solely by the employees of the receiving party who have not had access to Confidential Information; or (d) is divulged pursuant to any legal proceeding or otherwise required by law, provided that, to the extent legally permissible, the receiving party will notify the disclosing party promptly of such required disclosure and reasonably assists the disclosing party in efforts to limit such required disclosure.
 9. Representations and Warranties; Disclaimer
 
 9.1	Mutual.
 Each party represents, warrants and covenants to the other party that: (a) it has the full corporate right, power and authority to enter into this Agreement and to perform the acts required of it under this Agreement, (b) the execution of this Agreement and performance of its obligations under this Agreement do not and shall not violate any other agreement to which it is a party, (c) this Agreement constitutes the legal, valid and binding obligation of such party when executed and delivered and (d) any and all activities it undertakes in connection with this Agreement shall be performed in compliance with all applicable laws, rules and regulations; provided that Customer shall be solely responsible for ensuring that its use of the Hosted Service is in full compliance with applicable federal and state laws, rules and regulations that govern lotteries, sweepstakes and similar contests.
 9.2	By AppFog.
-AppFog warrants that (a) all Professional Services shall be provided in a professional, competent and workmanlike manner in accordance with the prevailing industry standards, (b) the Solution, as made available via the Hosted Service and when used in accordance with the Documentation, will perform in all material respects as specified in such Documentation during the applicable Subscription Term, and (c) AppFog will not knowingly introduce any “back door,” “time bomb,” “Trojan horse,” “worm,” “drop dead device,” “virus,” “preventative routines” or other computer software routines within the Solution that are intentionally designed to permit unauthorized access to or use of either the Solution’s or Customer’s computer systems (“Viruses”). In the event of any breach of the warranties in subsection (a) or (b) above, AppFog shall, as its sole liability and Customer’s sole remedy, diligently remedy any deficiencies that cause the Professional Services or Solution to not conform to such warranties promptly after its receipt of written notice from Customer. AppFog will not be liable to the extent that any breach of the foregoing warranties are caused by (i) third-party components (including in combination or as integrated with the Solution) not provided by AppFog or any open source components or freeware included within the Solution; (ii) unauthorized use or use of the Solution other than in accordance with the Documentation or (iii) Viruses introduced by Customer or its agents or Users.
+AppFog warrants that (a) all Professional Services shall be provided in a professional, competent and workmanlike manner in accordance with the prevailing industry standards, (b) the Solution, as made available via the Hosted Service and when used in accordance with the Documentation, will perform in all material respects as specified in such Documentation during the applicable Subscription Term, and (c) AppFog will not knowingly introduce any ï¿½back door,ï¿½ ï¿½time bomb,ï¿½ ï¿½Trojan horse,ï¿½ ï¿½worm,ï¿½ ï¿½drop dead device,ï¿½ ï¿½virus,ï¿½ ï¿½preventative routinesï¿½ or other computer software routines within the Solution that are intentionally designed to permit unauthorized access to or use of either the Solutionï¿½s or Customerï¿½s computer systems (ï¿½Virusesï¿½). In the event of any breach of the warranties in subsection (a) or (b) above, AppFog shall, as its sole liability and Customerï¿½s sole remedy, diligently remedy any deficiencies that cause the Professional Services or Solution to not conform to such warranties promptly after its receipt of written notice from Customer. AppFog will not be liable to the extent that any breach of the foregoing warranties are caused by (i) third-party components (including in combination or as integrated with the Solution) not provided by AppFog or any open source components or freeware included within the Solution; (ii) unauthorized use or use of the Solution other than in accordance with the Documentation or (iii) Viruses introduced by Customer or its agents or Users.
 9.3	Disclaimer.
-THE EXPRESS WARRANTIES SET FORTH IN THIS AGREEMENT ARE THE EXCLUSIVE WARRANTIES OFFERED BY EITHER PARTY AND ALL OTHER CONDITIONS AND WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY CONDITIONS OR WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, QUIET ENJOYMENT, TITLE, MERCHANTABILITY AND THOSE THAT ARISE FROM ANY COURSE OF DEALING OR COURSE OF PERFORMANCE ARE HEREBY DISCLAIMED. APPFOG DOES NOT WARRANT THAT CUSTOMER’S USE THE SOLUTION WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT ERRORS WILL BE CORRECTED.
+THE EXPRESS WARRANTIES SET FORTH IN THIS AGREEMENT ARE THE EXCLUSIVE WARRANTIES OFFERED BY EITHER PARTY AND ALL OTHER CONDITIONS AND WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY CONDITIONS OR WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, QUIET ENJOYMENT, TITLE, MERCHANTABILITY AND THOSE THAT ARISE FROM ANY COURSE OF DEALING OR COURSE OF PERFORMANCE ARE HEREBY DISCLAIMED. APPFOG DOES NOT WARRANT THAT CUSTOMERï¿½S USE THE SOLUTION WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT ERRORS WILL BE CORRECTED.
 10.	Indemnification, Limitation of Liability
 
 10.1	Indemnification.
-Customer will defend at its own expense any action against AppFog brought by a third party to the extent that the action is based upon a claim that Customer or any User has violated the Customer Policies, AUP or otherwise failed to comply with applicable law regarding such party’s personally identifiable information or other data and Customer will pay those costs and damages finally awarded against AppFog in any such action that are specifically attributable to such claim or those costs and damages agreed to in a monetary settlement of such action. The foregoing obligations are conditioned on AppFog notifying Customer promptly in writing of such action, AppFog giving Customer sole control of the defense thereof and any related settlement negotiations, and AppFog cooperating and, at Customer’s reasonable request and expense, assisting in such defense.
+Customer will defend at its own expense any action against AppFog brought by a third party to the extent that the action is based upon a claim that Customer or any User has violated the Customer Policies, AUP or otherwise failed to comply with applicable law regarding such partyï¿½s personally identifiable information or other data and Customer will pay those costs and damages finally awarded against AppFog in any such action that are specifically attributable to such claim or those costs and damages agreed to in a monetary settlement of such action. The foregoing obligations are conditioned on AppFog notifying Customer promptly in writing of such action, AppFog giving Customer sole control of the defense thereof and any related settlement negotiations, and AppFog cooperating and, at Customerï¿½s reasonable request and expense, assisting in such defense.
 10.2	Limitation of Liability.
-IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY OR TO ANY THIRD PARTY, WHETHER UNDER THEORY OF CONTRACT, TORT OR OTHERWISE, FOR ANY INDIRECT, INCIDENTAL, PUNITIVE, CONSEQUENTIAL, OR SPECIAL DAMAGES (INCLUDING ANY DAMAGE TO BUSINESS REPUTATION, LOST PROFITS OR LOST DATA), WHETHER FORESEEABLE OR NOT AND WHETHER APPFOG IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ADDITION, EACH PARTY’S AGGREGATE CUMULATIVE LIABILITY TO THE OTHER, IN CONNECTION WITH THIS AGREEMENT, INCLUDING THE SOLUTION, SERVICES AND INTELLECTUAL PROPERTY PROVIDED HEREUNDER SHALL NOT EXCEED, IN THE AGGREGATE AND REGARDLESS OF WHETHER UNDER THEORY OF CONTRACT, TORT OR OTHERWISE, THE TOTAL OF THE FEES ACTUALLY PAID AND THE FEES PAYABLE TO APPFOG BY CUSTOMER UNDER THIS AGREEMENT DURING THE ONE (1) YEAR PERIOD PRIOR TO THE DATE THAT SUCH LIABILITY FIRST ARISES.
+IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY OR TO ANY THIRD PARTY, WHETHER UNDER THEORY OF CONTRACT, TORT OR OTHERWISE, FOR ANY INDIRECT, INCIDENTAL, PUNITIVE, CONSEQUENTIAL, OR SPECIAL DAMAGES (INCLUDING ANY DAMAGE TO BUSINESS REPUTATION, LOST PROFITS OR LOST DATA), WHETHER FORESEEABLE OR NOT AND WHETHER APPFOG IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ADDITION, EACH PARTYï¿½S AGGREGATE CUMULATIVE LIABILITY TO THE OTHER, IN CONNECTION WITH THIS AGREEMENT, INCLUDING THE SOLUTION, SERVICES AND INTELLECTUAL PROPERTY PROVIDED HEREUNDER SHALL NOT EXCEED, IN THE AGGREGATE AND REGARDLESS OF WHETHER UNDER THEORY OF CONTRACT, TORT OR OTHERWISE, THE TOTAL OF THE FEES ACTUALLY PAID AND THE FEES PAYABLE TO APPFOG BY CUSTOMER UNDER THIS AGREEMENT DURING THE ONE (1) YEAR PERIOD PRIOR TO THE DATE THAT SUCH LIABILITY FIRST ARISES.
 11.	Publicity
 
-During the term of this Agreement, unless otherwise set forth in the applicable Order Form, Customer hereby agrees that AppFog shall have the right, but not the obligation, to include Customer’s name and logo as a customer who uses the Solution on the AppFog website and in other materials promoting the Solution. AppFog will remove Customer’s name and logo from any such list within thirty (30) days after any termination of this Agreement.
+During the term of this Agreement, unless otherwise set forth in the applicable Order Form, Customer hereby agrees that AppFog shall have the right, but not the obligation, to include Customerï¿½s name and logo as a customer who uses the Solution on the AppFog website and in other materials promoting the Solution. AppFog will remove Customerï¿½s name and logo from any such list within thirty (30) days after any termination of this Agreement.
 12.	Injunction Relief
 
-The parties acknowledge that the Solution and each party’s Confidential Information are unique property, and the unauthorized use thereof will cause the injured party irreparable harm that may not be adequately compensated by monetary damages. Accordingly, the parties agree that the injured party will, in addition to other remedies available to it at law or in equity, be entitled to seek injunctive relief to enforce the terms of this Agreement, including toprevent any actual or threatened unauthorized use or sublicensing of each party’s Confidential Information, the Solution, or any information or data contained therein.
+The parties acknowledge that the Solution and each partyï¿½s Confidential Information are unique property, and the unauthorized use thereof will cause the injured party irreparable harm that may not be adequately compensated by monetary damages. Accordingly, the parties agree that the injured party will, in addition to other remedies available to it at law or in equity, be entitled to seek injunctive relief to enforce the terms of this Agreement, including toprevent any actual or threatened unauthorized use or sublicensing of each partyï¿½s Confidential Information, the Solution, or any information or data contained therein.
 13.	Miscellaneous
 
-The parties are independent contractors with respect to each other, and nothing in this Agreement shall be construed as creating an employer-employee relationship, a partnership, agency relationship or a joint venture between the parties. Each party will be excused from any delay or failure in performance hereunder, other than the payment of money, caused by reason of any occurrence or contingency beyond its reasonable control, including but not limited to acts of God, earthquake, labor disputes and strikes, riots, war and governmental requirements. The obligations and rights of the party so excused will be extended on a day-to-day basis for the period of time equal to that of the underlying cause of the delay. This Agreement controls the actions of all party representatives, officers, agents, employees and associated individuals. The terms of this Agreement shall be binding on the parties, and all successors to the foregoing. Neither party will assign, transfer or delegate its rights or obligations under this Agreement (in whole or in part) without the other party’s prior written consent except pursuant to a transfer of all or substantially all of such party’s business and assets, whether by merger, sale of assets, sale of stock, or otherwise. Any attempted assignment, transfer or delegation in violation of the foregoing shall be null and void. All modifications to or waivers of any terms of this Agreement must be in a writing that is signed by the parties hereto and expressly references this Agreement. This Agreement shall be governed by the laws of the State of Oregon, without regard to Oregon conflict of laws rules. The exclusive venue and jurisdiction for any and all disputes, claims and controversies arising from or relating to this Agreement shall be the state or federal courts located in Multnomah County, Oregon. Each party waives any objection (on the grounds of lack of jurisdiction, forum non conveniens or otherwise) to the exercise of such jurisdiction over it by any such courts. The prevailing party shall be entitled to recover reasonable attorney’s fees and other costs from the other party. These fees and other costs are in addition to any other relief to which the prevailing party may be entitled. The United Nations Convention on Contracts for the International Sale of Goods will not apply to the interpretation or enforcement of this Agreement. In the event that any provision of this Agreement conflicts with governing law or if any provision is held to be null, void or otherwise ineffective or invalid by a court of competent jurisdiction, (a) such provision shall be deemed to be restated to reflect as nearly as possible the original intentions of the parties in accordance with applicable law, and (b) the remaining terms, provisions, covenants and restrictions of this Agreement shall remain in full force and effect. No waiver of any breach of any provision of this Agreement shall constitute a waiver of any prior, concurrent or subsequent breach of the same or any other provisions hereof, and no waiver shall be effective unless made in writing and signed by an authorized representative of the waiving party. This Agreement includes any Order Forms agreed to by the parties in writing and all expressly referenced documents. Collectively the foregoing constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements or communications, including, without limitation, any quotations or proposals submitted by AppFog. The terms on any purchase order or similar document submitted by Customer to AppFog will have no effect and are hereby rejected. All notices, consents and approvals under this Agreement must be delivered in writing by courier, by facsimile, or by certified or registered mail, (postage prepaid and return receipt requested) to the other party at the address set forth on the applicable Order Form and are deemed delivered when received. This Agreement may be executed in counterparts.
+The parties are independent contractors with respect to each other, and nothing in this Agreement shall be construed as creating an employer-employee relationship, a partnership, agency relationship or a joint venture between the parties. Each party will be excused from any delay or failure in performance hereunder, other than the payment of money, caused by reason of any occurrence or contingency beyond its reasonable control, including but not limited to acts of God, earthquake, labor disputes and strikes, riots, war and governmental requirements. The obligations and rights of the party so excused will be extended on a day-to-day basis for the period of time equal to that of the underlying cause of the delay. This Agreement controls the actions of all party representatives, officers, agents, employees and associated individuals. The terms of this Agreement shall be binding on the parties, and all successors to the foregoing. Neither party will assign, transfer or delegate its rights or obligations under this Agreement (in whole or in part) without the other partyï¿½s prior written consent except pursuant to a transfer of all or substantially all of such partyï¿½s business and assets, whether by merger, sale of assets, sale of stock, or otherwise. Any attempted assignment, transfer or delegation in violation of the foregoing shall be null and void. All modifications to or waivers of any terms of this Agreement must be in a writing that is signed by the parties hereto and expressly references this Agreement. This Agreement shall be governed by the laws of the State of Oregon, without regard to Oregon conflict of laws rules. The exclusive venue and jurisdiction for any and all disputes, claims and controversies arising from or relating to this Agreement shall be the state or federal courts located in Multnomah County, Oregon. Each party waives any objection (on the grounds of lack of jurisdiction, forum non conveniens or otherwise) to the exercise of such jurisdiction over it by any such courts. The prevailing party shall be entitled to recover reasonable attorneyï¿½s fees and other costs from the other party. These fees and other costs are in addition to any other relief to which the prevailing party may be entitled. The United Nations Convention on Contracts for the International Sale of Goods will not apply to the interpretation or enforcement of this Agreement. In the event that any provision of this Agreement conflicts with governing law or if any provision is held to be null, void or otherwise ineffective or invalid by a court of competent jurisdiction, (a) such provision shall be deemed to be restated to reflect as nearly as possible the original intentions of the parties in accordance with applicable law, and (b) the remaining terms, provisions, covenants and restrictions of this Agreement shall remain in full force and effect. No waiver of any breach of any provision of this Agreement shall constitute a waiver of any prior, concurrent or subsequent breach of the same or any other provisions hereof, and no waiver shall be effective unless made in writing and signed by an authorized representative of the waiving party. This Agreement includes any Order Forms agreed to by the parties in writing and all expressly referenced documents. Collectively the foregoing constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements or communications, including, without limitation, any quotations or proposals submitted by AppFog. The terms on any purchase order or similar document submitted by Customer to AppFog will have no effect and are hereby rejected. All notices, consents and approvals under this Agreement must be delivered in writing by courier, by facsimile, or by certified or registered mail, (postage prepaid and return receipt requested) to the other party at the address set forth on the applicable Order Form and are deemed delivered when received. This Agreement may be executed in counterparts.
 
 
 -----------------------------------------------------
@@ -1779,26 +1777,22 @@ http://www.enstratius.com/about-us/dcm-SLA
 
 Dell Cloud Manager Software as a Service Offering Service Level Agreement
 
-This document states the Service Level Agreement (“SLA”) provided by Enstratius, Inc. (“Enstratius”) in connection with the Dell Cloud Manager Software as a Service offering.
+This document states the Service Level Agreement (ï¿½SLAï¿½) provided by Enstratius, Inc. (ï¿½Enstratiusï¿½) in connection with the Dell Cloud Manager Software as a Service offering.
 
 The SLA consists of:
 
-1. The Dell Cloud Manager software (“DCM”) will be available for use 99.5% of the time except for any Excused Unavailability as described in Section (3) below, (the “Service Level”).
+1. The Dell Cloud Manager software (ï¿½DCMï¿½) will be available for use 99.5% of the time except for any Excused Unavailability as described in Section (3) below, (the ï¿½Service Levelï¿½).
 
-2. If Customer determines in its reasonable judgment that the Service Level has not been met, it may request a Service Level Credit. The Service Level Credit shall be equal to ten percent of the monthly fee for the Service (the “Service Fee”). The Service Fee does not include any associated fees, such as integration fees, training, consulting, or any other type of professional services.
+2. If Customer determines in its reasonable judgment that the Service Level has not been met, it may request a Service Level Credit. The Service Level Credit shall be equal to ten percent of the monthly fee for the Service (the ï¿½Service Feeï¿½). The Service Fee does not include any associated fees, such as integration fees, training, consulting, or any other type of professional services.
 
-3. An “Excused Unavailability” occurs when DCM is not available due to one or more of the following conditions or factors:
+3. An ï¿½Excused Unavailabilityï¿½ occurs when DCM is not available due to one or more of the following conditions or factors:
       A.	Circumstances beyond Enstratius' reasonable control, including, without limitation, acts of any governmental body, war, insurrection, sabotage, armed conflict, embargo, fire, flood, strike or other labor disturbance, interruption of or delay in transportation, unavailability of or interruption or delay in telecommunications or third party services, virus attacks or hackers or inability to obtain raw materials, supplies, or power used in or equipment needed for provision of this SLA;
       B. Scheduled and emergency maintenance and upgrades;
       C.	Any DNS or domain registry problems outside the direct control of Enstratius including DNS and registry propagation problems and expiration;
       D. The negligent or wrongful acts or omissions of Customer, its agents, or other Enstratius customers;
-      E.	Outages elsewhere on the Internet that hinder access to DCM, including, but not limited to factors which make the cloud(s) being managed by DCM unavailable to DCM or browser performance, DNS, or other caching that may DCM appear inaccessible when other Customer can still access it. 
+      E.	Outages elsewhere on the Internet that hinder access to DCM, including, but not limited to factors which make the cloud(s) being managed by DCM unavailable to DCM or browser performance, DNS, or other caching that may DCM appear inaccessible when other Customer can still access it.
 
-4. The Service Level Credit shall be issued following Enstratius’ receipt of the request from Customer and its good faith determination that the reported Service Level was not caused by an Unexcused Unavailability.
+4. The Service Level Credit shall be issued following Enstratiusï¿½ receipt of the request from Customer and its good faith determination that the reported Service Level was not caused by an Unexcused Unavailability.
 
 April 2014
 ----------------------------------------------------
-
-
-
- 
