@@ -11,26 +11,21 @@ class Chromosome:
     def __init__(self,rankString):
         self.rankString = rankString
         Chromosome.Count += 1
-        print "Chromosome created!"
 
     def displayRankString(self):
         print "My Rank String is " ,self.rankString
 
     def mutate(self):
-        print "Mutating Chromosome with probability ", Chromosome.MutateProbability
         start  = 0
         end    = len(self.rankString)
         mutateIndexCount = (int)(Chromosome.MutateProbability * len(self.rankString))
-        print mutateIndexCount ," changes expected!"
         for i in range(mutateIndexCount):
             index = random.randrange(start,end,1)
-            print "Mutating index ", index
             self.rankString = self.rankString[:index] + str((int(self.rankString[index])+random.randrange(0,100,1))%(end-start)+start) + self.rankString[index+1:]
 
     @staticmethod
     def crossover(chrome1,chrome2):
         if(random.random() < Chromosome.CrossOverProbability):
-            print "Crossing Over"
             start = 0
             end = len(chrome1.rankString)
             crossoverpt = random.randrange(start,end,1)
@@ -42,7 +37,6 @@ class Chromosome:
 
     @staticmethod
     def distance(chrome1,chrome2):
-        print "Finding Distance between given chromosomes ",chrome1.rankString," and ",chrome2.rankString
         total = 0
         count = 0
         for i in range(len(chrome1.rankString)):
@@ -50,3 +44,51 @@ class Chromosome:
             total = count+total
         dist = math.sqrt(total)
         return dist
+
+    @staticmethod
+    def randomChromosomeString(maxRank,length):
+        string = ""
+        for i in range(length):
+            string = string + str(random.randrange(0,maxRank,1))
+        return string
+
+    @staticmethod
+    def calculateProbability(population,userChromosome):
+        totalFitness = 0
+        populationLength = len(population)
+
+        for i in range(populationLength):
+            population[i].fitness = 1.0 / (Chromosome.distance(population[i],userChromosome)+1)
+            totalFitness += population[i].fitness
+        for i in range(populationLength):
+            population[i].probability = population[i].fitness / totalFitness
+        return population
+
+    @staticmethod
+    def rouletteSelection(population,userChromosome):
+
+        population = Chromosome.calculateProbability(population,userChromosome)
+        populationLength = len(population)
+        newPopulation = []
+        for i in range(populationLength):
+            rand = random.random()
+            temp = 0
+            for i in range(populationLength):
+                temp += population[i].probability
+                if(temp > rand):
+                    newPopulation.append(population[i])
+                    break
+        return newPopulation
+
+    @staticmethod
+    def getFittestChromosome(population):
+        index = 0
+        for i in range(len(population)):
+            if(population[i].probability > population[index].probability):
+                index = i
+        return index
+
+    @staticmethod
+    def printPopulation(population):
+        for i in range(len(population)):
+            print "Chromosome",i+1," : ",population[i].rankString
