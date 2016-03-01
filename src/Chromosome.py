@@ -15,13 +15,13 @@ class Chromosome:
     def displayRankString(self):
         print "My Rank String is " ,self.rankString
 
-    def mutate(self):
+    def mutate(self,maxRank):
         start  = 0
         end    = len(self.rankString)
         mutateIndexCount = (int)(Chromosome.MutateProbability * len(self.rankString))
         for i in range(mutateIndexCount):
             index = random.randrange(start,end,1)
-            self.rankString = self.rankString[:index] + str((int(self.rankString[index])+random.randrange(0,100,1))%(end-start)+start) + self.rankString[index+1:]
+            self.rankString[index] = round(random.uniform(0,maxRank),1)
 
     @staticmethod
     def crossover(chrome1,chrome2):
@@ -40,16 +40,16 @@ class Chromosome:
         total = 0
         count = 0
         for i in range(len(chrome1.rankString)):
-            count = (int(chrome1.rankString[i]) - int(chrome2.rankString[i]))**2
+            count = (chrome1.rankString[i] - chrome2.rankString[i])**2
             total = count+total
         dist = math.sqrt(total)
         return dist
 
     @staticmethod
     def randomChromosomeString(maxRank,length):
-        string = ""
+        string = []
         for i in range(length):
-            string = string + str(random.randrange(0,maxRank,1))
+            string.append(round(random.uniform(0,maxRank),1))
         return string
 
     @staticmethod

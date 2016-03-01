@@ -2,17 +2,18 @@ import random
 from Chromosome import Chromosome
 
 totalPopulation = 30
-print "Enter user chromosome string"
-userString = raw_input()
+maxRank = 40
+userString = [1,2,3,4,5]
 userChromosome = Chromosome(userString)
+print len(userChromosome.rankString)
 initialPopulation = [];
 print "Initializing Population"
 for i in range(totalPopulation):
-    initialPopulation.append(Chromosome(Chromosome.randomChromosomeString(10,len(userChromosome.rankString))))
+    initialPopulation.append(Chromosome(Chromosome.randomChromosomeString(maxRank,len(userChromosome.rankString))))
 
 print "Initial Population"
 Chromosome.printPopulation(initialPopulation)
-for i in range(10):
+for i in range(50):
 
     print "ITERATION ",i
     nextPopulation = []
@@ -39,8 +40,8 @@ for i in range(10):
         initialPopulation.pop(secondParentIndex)
 
         result = Chromosome.crossover(firstParent,secondParent)
-        result[0].mutate()
-        result[1].mutate()
+        result[0].mutate(maxRank)
+        result[1].mutate(maxRank)
 
         nextPopulation = nextPopulation + result
     initialPopulation = nextPopulation
